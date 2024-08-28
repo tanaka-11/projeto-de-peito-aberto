@@ -6,8 +6,8 @@ Através da faculdade, tivemos a oportunidade de ajudar a ONG Vilma Kano utiliza
 
 - Demos duas opções para a cliente:
 
-1. Uma página à parte com o chat e a seção de FAQ.
-2. Modal com o FAQ e um formulário para conversação.
+1. Modal com o FAQ e um formulário para conversação.
+2. Uma página à parte com o chat e a seção de FAQ.
 
 ![Primeiro Wireframe](./assets/images/wireframe-baixa-fidelidade.png)
 

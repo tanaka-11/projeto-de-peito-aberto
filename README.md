@@ -5,9 +5,9 @@ Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplic
 
 # Membros
 
-- Marina Tanaka dos Santos Garcia
-- Erick Oscar
-- Kathleen Ferreira
+- Marina Tanaka (3024200441)
+- Erick Oscar (3024202631)
+- Kathleen Ferreira (3022101127)
 
 ## Wireframe
 

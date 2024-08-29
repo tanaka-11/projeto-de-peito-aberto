@@ -15,7 +15,7 @@ Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplic
 ## Modal
 
 Apos briefing realizado a cliente otpou pela opção de **um modal javascript**
-![](./assets/images/assinatura-vilma.png)
+![Assinatura da Cliente](./assets/images/assinatura-vilma.png)
 
 ## Wireframe de Alta Fidelidade
 

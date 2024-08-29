@@ -24,7 +24,7 @@ Após briefing realizado a cliente otpou pela opção de **um modal javascript**
 
 ![Assinatura da Cliente](./assets/images/assinatura-vilma.png)
 
-[Link da TAP](<G:/Projeto%20de%20Peito%20Aberto%20-%20Vilma%20Kano/TAP%20(%20Termo%20de%20Abertura%20de%20Projeto)/TAP_TERMO_DE_ABERTURA_DE_PROJETO_assinado.pdf>)
+#### LINK [TAP](./TAP_TERMO_DE_ABERTURA_DE_PROJETO.pdf)
 
 ## Wireframe de Alta Fidelidade
 

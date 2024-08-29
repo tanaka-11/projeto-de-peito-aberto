@@ -1,7 +1,7 @@
 # Projeto de Peito Aberto - ONG Vilma Kano
 
 Através da faculdade, tivemos a oportunidade de ajudar a **ONG Vilma Kano** utilizando nossas habilidades de desenvolvimento. Durante o briefing com a cliente, foi solicitado um botão flutuante que exibisse um modal com um FAQ e um espaço para trocar mensagens sobre dúvidas.
-Decidimos faze-lo em javascript por ser uma interação.
+Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplicação web.
 
 ## Wireframe
 
@@ -11,6 +11,13 @@ Decidimos faze-lo em javascript por ser uma interação.
 2. **Página** à parte com o chat e a seção de FAQ.
 
 ![Primeiro Wireframe](./assets/images/wireframe-baixa-fidelidade.png)
+
+## Modal
+
+Apos briefing realizado a cliente otpou pela opção de **um modal javascript**
+![](./assets/images/assinatura-vilma.png)
+
+## Wireframe de Alta Fidelidade
 
 ## Fluxograma
 

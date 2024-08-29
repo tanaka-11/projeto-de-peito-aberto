@@ -5,9 +5,9 @@ Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplic
 
 # Membros
 
-- Marina Tanaka (3024200441)
-- Erick Oscar (3024202631)
-- Kathleen Ferreira (3022101127)
+- Marina Tanaka **(3024200441)**
+- Erick Oscar **(3024202631)**
+- Kathleen Ferreira **(3022101127)**
 
 ## Wireframe
 
@@ -24,9 +24,11 @@ Após briefing realizado a cliente otpou pela opção de **um modal javascript**
 
 ![Assinatura da Cliente](./assets/images/assinatura-vilma.png)
 
-## Link - [TAP (Termo de Abertura de Projeto)](TAP_TERMO_DE_ABERTURA_DE_PROJETO_assinado.pdf)
+#### Link - [TAP (Termo de Abertura de Projeto)](TAP_TERMO_DE_ABERTURA_DE_PROJETO_assinado.pdf)
 
 ## Wireframe de Alta Fidelidade
+
+![Primeira Ideia](./assets/images/wireframe-alta-fidelidade.png)
 
 ## Fluxograma
 

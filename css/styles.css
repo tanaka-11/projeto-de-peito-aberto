@@ -1,5 +1,64 @@
+/* Reset Geral */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  /* Valor responsivo */
+  padding: 1rem;
+}
+
+/* Titulo */
+h1 {
+  margin-bottom: 1rem;
+}
+
+/* Botão */
+button {
+  /* Cima/Baixo  Laterais
+        0.6rem    1.2rem
+*/
+  padding: 0.6rem 1.2rem;
+
+  /* Cor de fundo */
+  background-color: #888;
+
+  /* Cor de texto */
+  color: #fff;
+
+  /* Sem borda */
+  border: none;
+
+  /* Arredondamento */
+  border-radius: 0.25rem;
+
+  /* Cursor do mouse */
+  cursor: pointer;
+
+  /* Opacidade */
+  opacity: 0.9;
+
+  /* Tamanho do texto */
+  font-size: 1rem;
+
+  /* Margem pra cima */
+  margin-top: 8px;
+
+  /* Margem pra baixo */
+  margin-bottom: 8px;
+}
+
+/* Lista Ordenada do Modal */
+ol li:hover {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Item especifico da lista atraves do ID */
+ol li#teste:hover {
+  font-size: 1rem;
+  color: red;
 }

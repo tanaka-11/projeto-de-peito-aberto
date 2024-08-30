@@ -51,54 +51,6 @@ button {
   background-color: #007bff;
 }
 
-/* Cabeçalho do Modal (Titulo e button fechar) */
-#modal-header {
-  /* Deixando elementos do cabeçalho lado a lado */
-  display: flex;
-
-  /* Espaçamento entre os elementos */
-  justify-content: space-between;
-
-  /* Alinhando elementos ao centro */
-  align-items: center;
-
-  /* Borda para baixo */
-  border-bottom: #ccc 1px solid;
-
-  /* Margem e Espaçamento interno */
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-}
-
-/* Titulo */
-#modal-header h2 {
-  margin: 16px;
-}
-
-/* Botão Fechar Modal */
-#close-modal:hover {
-  background-color: #eb2c2c;
-}
-
-/* Lista Ordenada do Modal */
-ol li {
-  margin-bottom: 1rem;
-}
-ol li:hover {
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-/* Lista do Modal */
-#modal-list {
-  margin: 40px;
-}
-
-/* Botão Enviar de Dentro do Modal */
-#send-modal:hover {
-  background-color: pink;
-}
-
 /* Atributo para preencher completamente a tela (Background do Modal) */
 #fade {
   /* Posição fixada */
@@ -139,4 +91,59 @@ ol li:hover {
 
   /* Arredondamento */
   border-radius: 0.5rem;
+}
+
+/* Cabeçalho do Modal (Titulo e button fechar) */
+#modal-header {
+  /* Deixando elementos do cabeçalho lado a lado */
+  display: flex;
+
+  /* Espaçamento entre os elementos */
+  justify-content: space-between;
+
+  /* Alinhando elementos ao centro */
+  align-items: center;
+
+  /* Borda para baixo */
+  border-bottom: #ccc 1px solid;
+
+  /* Margem e Espaçamento interno */
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Titulo */
+#modal-header h2 {
+  margin: 16px;
+  font-size: 1.6rem;
+}
+
+/* Botão Fechar Modal */
+#close-modal:hover {
+  background-color: #eb2c2c;
+}
+
+/* Lista Ordenada do Modal */
+ol li {
+  margin-bottom: 1rem;
+  max-width: 20%;
+}
+ol li:hover {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Lista do Modal */
+#modal-list {
+  margin: 40px;
+}
+
+/* Botão Enviar de Dentro do Modal */
+#send-modal:hover {
+  background-color: pink;
+  color: darkred;
+}
+
+#modal-form {
+  margin-left: 60%;
 }

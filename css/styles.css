@@ -111,7 +111,7 @@ button {
 /* Titulo */
 #modal-header h2 {
   margin: 16px;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /* Botão Fechar Modal */
@@ -126,7 +126,7 @@ ul li {
   font-size: 1.5rem;
 }
 ul li:hover {
-  font-size: 2rem;
+  font-size: 2.2rem;
   cursor: pointer;
   font-weight: bold;
 }
@@ -163,4 +163,10 @@ textarea {
   /* Borda */
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+#modal-title-form {
+  margin-left: 80%;
+  margin-bottom: 16px;
+  font-size: 2rem;
 }

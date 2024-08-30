@@ -38,4 +38,6 @@ Após briefing realizado a cliente otpou pela opção de **um modal javascript**
 
 ## Primeiro Layout Codificado
 
+- Aprendendo conceito sobre modal e revisando sobre a linguagem javascript e html
+
 ![Primeiro Layout](./assets/images/readme/primeiro-layout-codificado.png)

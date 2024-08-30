@@ -35,13 +35,3 @@ Após briefing realizado a cliente otpou pela opção de **um modal javascript**
 - **Após a cliente escolher a versão do modal**, foi feito um fluxograma para explicar como funcionaria a codificação.
 
 ![Fluxograma](./assets/images/readme/fluxograma-da-funcao-JavaScript.jpg)
-
-## Começo do Codigo
-
-## Primeira linhas escritas
-
-![](./assets/images/readme/01.png)
-
-## Primeiro layout
-
-![](./assets/images/readme/02.png)

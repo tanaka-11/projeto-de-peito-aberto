@@ -104,18 +104,14 @@ button {
   /* Alinhando elementos ao centro */
   align-items: center;
 
-  /* Borda para baixo */
-  border-bottom: #ccc 1px solid;
-
-  /* Margem e Espaçamento interno */
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  /* Margem */
+  margin-bottom: 16px;
 }
 
 /* Titulo */
 #modal-header h2 {
   margin: 16px;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
 }
 
 /* Botão Fechar Modal */
@@ -124,13 +120,15 @@ button {
 }
 
 /* Lista Ordenada do Modal */
-ol li {
+ul li {
   margin-bottom: 1rem;
   max-width: 20%;
+  font-size: 1.5rem;
 }
-ol li:hover {
+ul li:hover {
   font-size: 2rem;
   cursor: pointer;
+  font-weight: bold;
 }
 
 /* Lista do Modal */
@@ -144,6 +142,25 @@ ol li:hover {
   color: darkred;
 }
 
+/* Formulario do Modal */
 #modal-form {
   margin-left: 60%;
+}
+
+/* Inputs do Formulario */
+#modal-form input[type="text"],
+input[type="mail"],
+textarea {
+  /* Largura */
+  width: 90%;
+
+  /* Espaçamento Interno */
+  padding: 12px 20px;
+
+  /* Margem */
+  margin: 8px 0;
+
+  /* Borda */
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }

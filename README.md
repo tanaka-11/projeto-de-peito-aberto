@@ -16,22 +16,32 @@ Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplic
 1. **Modal** com o FAQ e um formulário para conversação.
 2. **Página** à parte com o chat e a seção de FAQ.
 
-![Primeiro Wireframe](./assets/images/wireframe-baixa-fidelidade.png)
+![Primeiro Wireframe](./assets/images/readme/wireframe-baixa-fidelidade.png)
 
 ## Modal
 
 Após briefing realizado a cliente otpou pela opção de **um modal javascript** e autorizou o termo de abertura do projeto **(TAP)**
 
-![Assinatura da Cliente](./assets/images/assinatura-vilma.png)
+![Assinatura da Cliente](./assets/images/readme/assinatura-vilma.png)
 
 #### Link - [TAP (Termo de Abertura de Projeto)](TAP_TERMO_DE_ABERTURA_DE_PROJETO_assinado.pdf)
 
 ## Wireframe de Alta Fidelidade
 
-![Primeira Ideia](./assets/images/wireframe-alta-fidelidade.png)
+![Primeira Ideia](./assets/images/readme/wireframe-alta-fidelidade.png)
 
 ## Fluxograma
 
 - **Após a cliente escolher a versão do modal**, foi feito um fluxograma para explicar como funcionaria a codificação.
 
-![Fluxograma](./assets/images/fluxograma-da-funcao-JavaScript.jpg)
+![Fluxograma](./assets/images/readme/fluxograma-da-funcao-JavaScript.jpg)
+
+## Começo do Codigo
+
+## Primeira linhas escritas
+
+![](./assets/images/readme/01.png)
+
+## Primeiro layout
+
+![](./assets/images/readme/02.png)

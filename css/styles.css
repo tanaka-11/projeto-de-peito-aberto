@@ -11,12 +11,6 @@ body {
   padding: 1rem;
 }
 
-/* Titulo */
-/* 
-    h1 {
-        margin-bottom: 1rem; 
-} */
-
 /* Botão */
 button {
   /* Cima/Baixo  Laterais
@@ -50,21 +44,6 @@ button {
 
   /* Margem pra baixo */
   margin-bottom: 8px;
-
-  /* Transição utilizada no atributo "button:hover" */
-  /* transition: 0.4s; */
-}
-
-/* Lista Ordenada do Modal */
-ol li:hover {
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-/* Item especifico da lista atraves do ID */
-ol li#teste:hover {
-  font-size: 1rem;
-  color: red;
 }
 
 /* Botão para abrir modal */
@@ -72,24 +51,52 @@ ol li#teste:hover {
   background-color: #007bff;
 }
 
-/* Ao passar em cima do botão (Transição no "button") */
-/* button:hover {
-  opacity: 1;
-} */
+/* Cabeçalho do Modal (Titulo e button fechar) */
+#modal-header {
+  /* Deixando elementos do cabeçalho lado a lado */
+  display: flex;
+
+  /* Espaçamento entre os elementos */
+  justify-content: space-between;
+
+  /* Alinhando elementos ao centro */
+  align-items: center;
+
+  /* Borda para cimo */
+  border-bottom: #ccc 1px solid;
+
+  /* Margem e Espaçamento interno */
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Titulo */
+#modal-header h2 {
+  margin: 16px;
+}
 
 /* Botão Fechar Modal */
 #close-modal:hover {
   background-color: #eb2c2c;
 }
 
-/* Botão Enviar de Dentro do Modal */
-#send-modal:hover {
-  background-color: pink;
+/* Lista Ordenada do Modal */
+ol li {
+  margin-bottom: 1rem;
+}
+ol li:hover {
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 /* Lista do Modal */
 #modal-list {
   margin: 40px;
+}
+
+/* Botão Enviar de Dentro do Modal */
+#send-modal:hover {
+  background-color: pink;
 }
 
 /* Atributo para preencher completamente a tela (Background do Modal) */
@@ -113,15 +120,23 @@ ol li#teste:hover {
   z-index: 5;
 }
 
-/* Criação do Modal */
+/* Estrutura do Modal */
 #modal {
   /* Posição fixada */
   position: fixed;
 
-  /* Alinhando ao meio */
+  /* Fixando Modal */
   left: 50%;
   top: 50%;
   z-index: 10;
+
+  /* Cor de Fundo e Largula do Modal */
   background-color: #f0f8ff;
-  width: 80%;
+  width: 90%;
+
+  /* Alinhando ao meio */
+  transform: translate(-50%, -50%);
+
+  /* Arredondamento */
+  border-radius: 0.5rem;
 }

@@ -170,3 +170,9 @@ textarea {
   margin-bottom: 16px;
   font-size: 2rem;
 }
+
+/* Classe (hide) */
+#modal.hide,
+#fade.hide {
+  opacity: 0;
+}

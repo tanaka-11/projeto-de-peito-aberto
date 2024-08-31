@@ -32,13 +32,13 @@ Pensando na proposta da cliente, nosso **primeiro modelo** foi feito visando a *
 
 ![Primeira Ideia](./assets/images/readme/wireframe-alta-fidelidade.png)
 
-Ja o nosso **segundo modelo** discutimos e decidimos baseá-lo na paleta e no estilo do site já existente, mantendo o mesmo **foco em acessibilidade**, apenas mudando as cores e estilo para que agregasse o site existente
+Ja o nosso **segundo modelo** discutimos e decidimos baseá-lo na paleta e no estilo do site já existente, mantendo o mesmo **foco em acessibilidade**
 
 ![Segunda Ideia](./assets/images/readme/wireframe-alta-fidelidade-02.png)
 
 ## Fluxograma
 
-Foi feito um fluxograma para explicar como funcionaria a codificação do modal e alinhar a equipe do que precisaria ser feito
+Foi feito um fluxograma para explicar como funcionaria a **codificação do modal** e alinhar a equipe do que precisaria ser feito
 
 ![Fluxograma](./assets/images/readme/fluxograma-da-funcao-JavaScript.jpg)
 

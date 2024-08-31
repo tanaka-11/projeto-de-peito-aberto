@@ -11,7 +11,7 @@ Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplic
 
 ## Wireframe
 
-- **Demos duas opções para a cliente:**
+**Demos duas opções para a cliente:**
 
 1. **Modal** com o FAQ e um formulário para conversação.
 2. **Página** à parte com o chat e a seção de FAQ.
@@ -20,7 +20,7 @@ Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplic
 
 ## Modal
 
-Após briefing realizado a cliente otpou pela opção de **um modal javascript** e autorizou o termo de abertura do projeto **(TAP)**
+Após briefing realizado a cliente optou pela opção de **um modal javascript** e autorizou o termo de abertura do projeto **(TAP)**
 
 ![Assinatura da Cliente](./assets/images/readme/assinatura-vilma.png)
 
@@ -28,16 +28,22 @@ Após briefing realizado a cliente otpou pela opção de **um modal javascript**
 
 ## Wireframe de Alta Fidelidade
 
+Pensando na proposta da cliente, nosso **primeiro modelo** foi feito visando a **acessibilidade**, para que fosse intuitivo mesmo **para pessoas sem afinidade tecnológica**. Testamos diversas paletas de cores com a ferramenta **"Adobe Color"** para conseguir uma paleta **AAA** baseada nas **Diretrizes de Acessibilidade para Conteúdo da Web (WCAG)**
+
 ![Primeira Ideia](./assets/images/readme/wireframe-alta-fidelidade.png)
+
+Ja o nosso **segundo modelo** discutimos e decidimos baseá-lo na paleta e no estilo do site já existente, mantendo o mesmo **foco em acessibilidade**, apenas mudando as cores e estilo para que agregasse o site existente
+
+![Segunda Ideia](./assets/images/readme/wireframe-alta-fidelidade-02.png)
 
 ## Fluxograma
 
-- **Após a cliente escolher a versão do modal**, foi feito um fluxograma para explicar como funcionaria a codificação.
+Foi feito um fluxograma para explicar como funcionaria a codificação do modal e alinhar a equipe do que precisaria ser feito
 
 ![Fluxograma](./assets/images/readme/fluxograma-da-funcao-JavaScript.jpg)
 
 ## Primeiro Layout Codificado
 
-- Aprendendo conceito sobre modal e revisando sobre a linguagem javascript e html
+Por se tratar de um desafio, devido ao fato de termos uma equipe pequena e apenas um desenvolvedor com noção de codigo, optamos por revisar conceitos sobre modais e sobre as linguagens **JavaScript**, **HTML** e **CSS** para que toda a equipe estivesse preparada para a parte de codificação do projeto
 
 ![Primeiro Layout](./assets/images/readme/primeiro-layout-codificado.png)

@@ -1,13 +1,15 @@
 # Projeto de Peito Aberto - ONG Vilma Kano
 
-Através da faculdade, tivemos a oportunidade de ajudar a **ONG Vilma Kano** utilizando nossas habilidades de desenvolvimento. Durante o briefing com a cliente, foi solicitado um botão flutuante que exibisse um modal com um FAQ e um espaço para trocar mensagens sobre dúvidas.
+Através da faculdade, tivemos a oportunidade de ajudar a **ONG Vilma Kano** utilizando nossas habilidades em desenvolvimento. Durante o briefing com a cliente, foi solicitado um botão flutuante que exibisse um modal com um FAQ e um espaço para trocar mensagens sobre dúvidas.
 Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplicação web.
 
 # Membros
 
-- Marina Tanaka **(3024200441)**
-- Erick Oscar **(3024202631)**
-- Kathleen Ferreira **(3022101127)**
+<a href="https://github.com/tanaka-11">Marina Tanaka <b>(3024200441)</b></a>
+
+<a href="https://github.com/eoscar76">Erick Oscar <b>(3024202631)</b></a>
+
+<a href="https://github.com/KathleenFerreira18">Kathleen Ferreira <b>(3022101127)</b></a>
 
 ## Wireframe
 

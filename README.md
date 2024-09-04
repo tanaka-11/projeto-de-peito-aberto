@@ -1,9 +1,9 @@
 # Projeto de Peito Aberto - ONG Vilma Kano
 
-Através da faculdade, tivemos a oportunidade de ajudar a **ONG Vilma Kano** utilizando nossas habilidades em desenvolvimento. Durante o briefing com a cliente, foi solicitado um botão flutuante que exibisse um modal com um FAQ e um espaço para trocar mensagens sobre dúvidas.
-Decidimos faze-lo em javascript por ser uma interação e se tratar de uma aplicação web.
+Através da faculdade, tivemos a oportunidade de ajudar a **ONG Vilma Kano** utilizando nossas **habilidades em desenvolvimento**. Durante o briefing com a cliente, foi solicitado um **botão flutuante que exibisse um modal** com um FAQ e um espaço para trocar mensagens sobre dúvidas.
+Decidimos faze-lo em **javascript, html** e **css** por ser uma interação e se tratar de uma aplicação web.
 
-# Membros
+# Membros - Uninove VP
 
 <a href="https://github.com/tanaka-11">Marina Tanaka <b>(3024200441)</b></a>
 
@@ -34,7 +34,7 @@ Pensando na proposta da cliente, nosso **primeiro modelo** foi feito visando a *
 
 ![Primeira Ideia](./assets/images/readme/wireframe-alta-fidelidade.png)
 
-Ja o nosso **segundo modelo** discutimos e decidimos baseá-lo na paleta e no estilo do site já existente, mantendo o mesmo **foco em acessibilidade**
+Como tinhamos dois modelos, perguntamos para a cliente e ela escolheu nosso modelo detalhado. Discutimos e decidimos baseá-lo na paleta e no estilo do site já existente porem matendo o mesmo **foco em acessibilidade**
 
 ![Segunda Ideia](./assets/images/readme/wireframe-alta-fidelidade-02.png)
 

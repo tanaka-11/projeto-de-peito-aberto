@@ -51,6 +51,14 @@ button {
   background-color: #007bff;
 }
 
+/* Background do modal e Modal ()*/
+#fade,
+#modal {
+  transition: 0.5s;
+  opacity: 1;
+  pointer-events: all;
+}
+
 /* Atributo para preencher completamente a tela (Background do Modal) */
 #fade {
   /* Posição fixada */
@@ -175,4 +183,10 @@ textarea {
 #modal.hide,
 #fade.hide {
   opacity: 0;
+  pointer-events: none;
+}
+
+/* Transição de Fechamento do Modal */
+#modal.hide {
+  top: 0;
 }

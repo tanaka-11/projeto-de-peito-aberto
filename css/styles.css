@@ -133,7 +133,7 @@ ul li:hover {
 
 /* Lista do Modal */
 #modal-list {
-  margin: 40px;
+  margin: 36px;
 }
 
 /* Botão Enviar de Dentro do Modal */
@@ -155,10 +155,10 @@ textarea {
   width: 90%;
 
   /* Espaçamento Interno */
-  padding: 12px 20px;
+  padding: 16px;
 
   /* Margem */
-  margin: 8px 0;
+  margin: 8px;
 
   /* Borda */
   border: 1px solid #ccc;

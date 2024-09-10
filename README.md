@@ -34,7 +34,7 @@ Pensando na proposta da cliente, nosso **primeiro modelo** foi feito visando a *
 
 ![Primeira Ideia](./assets/images/readme/wireframe-alta-fidelidade.png)
 
-Como tinhamos dois modelos, perguntamos para a cliente e ela escolheu nosso modelo detalhado. Discutimos e decidimos baseá-lo na paleta e no estilo do site já existente porem matendo o mesmo **foco em acessibilidade**
+Como tinhamos dois modelos, perguntamos para a cliente e ela escolheu nosso modelo mais detalhado. Discutimos com a equipe e decidimos basear o modelo na paleta e no estilo do site já existente porem matendo o mesmo **foco em acessibilidade**
 
 ![Segunda Ideia](./assets/images/readme/wireframe-alta-fidelidade-02.png)
 

@@ -84,13 +84,17 @@ button {
 
   /* Cor de Fundo e Largula do Modal */
   background-color: #f0f8ff;
-  width: 90%;
+  width: 80%;
+  max-height: 90%;
 
   /* Alinhando ao meio */
   transform: translate(-50%, -50%);
 
   /* Arredondamento */
   border-radius: 0.5rem;
+
+  /* Rolagem de Tela */
+  overflow: auto;
 }
 
 /* Cabeçalho do Modal (Titulo e button fechar) */
@@ -104,8 +108,12 @@ button {
   /* Alinhando elementos ao centro */
   align-items: center;
 
-  /* Margem */
-  margin-bottom: 16px;
+}
+
+/* Corpo do Modal (FAQ e Formulario) */
+#modal-body {
+  height: 80%;
+  overflow-y: auto;
 }
 
 /* Titulo do Modal */
@@ -122,18 +130,17 @@ button {
 /* Lista Ordenada do Modal */
 ul li {
   margin-bottom: 1rem;
-  max-width: 20%;
   font-size: 1.5rem;
 }
 ul li:hover {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   cursor: pointer;
   font-weight: bold;
 }
 
 /* Lista do Modal */
 #modal-list {
-  margin: 40px;
+  margin: 8px 32px;
 }
 
 /* Botão Enviar de Dentro do Modal */
@@ -153,9 +160,10 @@ input[type="mail"],
 textarea {
   /* Largura */
   width: 90%;
+  height: 90%;
 
   /* Espaçamento Interno */
-  padding: 12px 20px;
+  padding: 8px 16px;
 
   /* Margem */
   margin: 8px 0;
@@ -163,10 +171,12 @@ textarea {
   /* Borda */
   border: 1px solid #ccc;
   border-radius: 4px;
+
+  
 }
 
 #modal-title-form {
-  margin-left: 80%;
+  margin-left: 60%;
   margin-bottom: 16px;
   font-size: 2rem;
 }

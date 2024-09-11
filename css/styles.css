@@ -115,7 +115,6 @@ button {
 
   /* Alinhando elementos ao centro */
   align-items: center;
-
 }
 
 /* Corpo do Modal (FAQ e Formulario) */
@@ -140,10 +139,15 @@ ul li {
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
-ul li:hover {
+ul li:hover,
+ul li:focus {
   font-size: 1.8rem;
   cursor: pointer;
   font-weight: bold;
+}
+ul li p {
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 /* Lista do Modal */
@@ -179,8 +183,6 @@ textarea {
   /* Borda */
   border: 1px solid #ccc;
   border-radius: 4px;
-
-  
 }
 
 #modal-title-form {

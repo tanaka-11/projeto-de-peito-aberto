@@ -90,9 +90,9 @@ button {
   top: 50%;
   z-index: 10;
 
-  /* Cor de Fundo e Largula do Modal */
-  background-color: #f0f8ff;
-  width: 80%;
+  /* Cor de Fundo e Largura do Modal */
+  background-color: #c5c0c0;
+  width: 90%;
   max-height: 90%;
 
   /* Alinhando ao meio */
@@ -153,7 +153,15 @@ ul li p {
 /* Lista do Modal */
 #modal-list {
   margin: 8px 32px;
+  padding: 16px;
 }
+
+#modal-list-item.active {
+  font-size: 1.8rem;
+  
+}
+
+
 
 /* Botão Enviar de Dentro do Modal */
 #send-modal:hover {
@@ -201,4 +209,8 @@ textarea {
 /* Transição de Fechamento do Modal */
 #modal.hide {
   top: 0;
+}
+
+.active {
+  font-weight: bold;
 }

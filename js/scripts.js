@@ -28,15 +28,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const fade = document.getElementById("fade");
   const modal = document.getElementById("modal");
 
-  // Função para remover todos os parágrafos
-  function removeParagraphs() {
-    listItems.forEach((li) => {
-      const existingParagraph = li.querySelector("p");
-      if (existingParagraph) {
-        li.removeChild(existingParagraph);
-      }
-    });
-  }
+    // Função para remover todos os parágrafos e classes 'active'
+    function removeParagraphsAndActiveClass() {
+      listItems.forEach(li => {
+        const existingParagraph = li.querySelector("p");
+        if (existingParagraph) {
+          li.removeChild(existingParagraph);
+        }
+        li.classList.remove("active");
+      });
+    }
 
   // Adiciona um evento de clique a cada item da lista
   listItems.forEach((item) => {
@@ -44,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Impede a propagação do clique para o modal
       event.stopPropagation();
       // Remove todos os parágrafos existentes
-      removeParagraphs();
+      removeParagraphsAndActiveClass();
 
       // Verifica se o item clicado já tem um parágrafo
       const existingParagraph = this.querySelector("p");
@@ -55,12 +56,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Adiciona o parágrafo ao item da lista clicado
         this.appendChild(paragraph);
+
+        // Adiciona a classe 'active' ao item clicado
+        this.classList.add("active");
+      } else {
+        removeParagraphsAndActiveClass();
       }
     });
   });
 
   // Adiciona um evento de clique ao fundo do modal
-  fade.addEventListener("click", removeParagraphs);
+  fade.addEventListener("click", removeParagraphsAndActiveClass);
   // Adiciona um evento de clique ao próprio modal
-  modal.addEventListener("click", removeParagraphs);
+  modal.addEventListener("click", removeParagraphsAndActiveClass);
 });

@@ -1,0 +1,54 @@
+{
+    "perguntas" : [
+        { 
+        "id": 1,
+        "titulo": "Quero ganhar uma peruca",
+        "descricao": "Clicando neste link você escolhe a peruca e envia a solicitação: http://vilmakano.org/banco-de-perucas/"
+        },
+        { 
+        "id": 2,
+        "titulo": "Quero ser voluntária",
+        "descricao": "Para fazer parte do time de voluntários da ONG Vilma Kano, oferecemos um curso online de 4 módulos. Quer fazer o curso?"
+        },
+        {
+        "id": 3,
+        "titulo": "Quero fazer a micropigmentação",
+        "descricao": "Solicite a micropigmentação de sobrancelhas ou aréolas clicando neste link http://vilmakano.org/contato/"
+        },
+        {
+        "id": 4,
+        "titulo": "Preciso falar com um Psicólogo",
+        "descricao": "Solicite a Terapia Psicológica enviando cópia dos seus documentos RG/CPF/CNH + Comprovante de tratamento oncológico de até 5 anos para o e-mail contato@vilmakano.org, com a palavra Psicólogo"
+        },
+        {
+        "id": 5,
+        "titulo": "Preciso falar com um Advogado",
+        "descricao": "Solicite orientações com nossos Advogdos clicando neste link http://vilmakano.org/contato/"
+        },
+        {
+        "id": 6,
+        "titulo": "Quero fazer uma Doação",
+        "descricao": "Tem várias formas de fazer doações, clique aqui e veja de que forma pode nos ajudar http://vilmakano.org/doe-agora/"
+        },
+        {
+        "id": 7,
+        "titulo": "Quais são os direitos do paciente oncológico?",
+        "descricao": "FD - ajuda d custo p quem viaja mais d 50km p fazer o tratamento oncológico no SUS. Fale c o seu médico.Auxílio-doença - segurado pelo (INSS), incapacitado por mais de 15 dias consecutivos, sem a carência d 12 meses q exigem p outros casos. Agende a perícia médica e apresente seus laudos, se a data for superior a 30 dias, opte por “sem perícia “, tanto no site qto pelo app. Saque do FGTS e do PIS/ Pasep - trabalhador c câncer ou q tenha um dependente c câncer deve apresentar os laudos e carteira de trabalho, Cartão Cidadão ou inscrição PIS/Pasep, em uma agência da Caixa Econômica Federal. No caso do Pasep, a requisição deve ser feita no Banco do Brasil. BPC Loas - pessoa idosa, com 65 anos ou mais, e à pessoa com deficiência, de qualquer idade, com impedimentos d!longo prazo q impeçam d garantir seu sustento ou d se sua família. Medicamentos Gratuitos - vc pode pegar na UBS, no hospital ou em farmácia d alto custo do governo, no caso do seu medicamento não estar na lista fornecida pelo governo estadual. Transporte Público Gratuito - verifique no Município onde vc mora há este benefício. Aqui na capital temos direito ao bilhete único especial durante o tratamento oncológico. Não é válido p tratamento em remissão.Liberação d Rodízio Municipal - aqui em São Paulo, temos liberação do rodízio comprovando o tratamento oncológico pelo portal 156. Isenção d IPVA - verifique no Estado onde vc mora se tem isenção d IPVA. Se tiver, apresente o laudo médico e documentos pessoais e do carro. Aqui em SP, tem q dar entrada pelo SIVEI. Isenção do Imposto de Renda  - relativo aos rendimentos de aposentadoria, pensão ou reserva/reforma (Militares - O benefício deve ser solicitado à fonte pagadora apresentando o laudo médico. Não cabe sobre outros proventos como aluguéis de imóveis ou investimentos) Compra de veículos - Em casos de deficiência física nos membros inferiores ou superiores que impeçam a pessoa de dirigir veículos comuns, os pacientes podem requerer, mediante apresentação de laudo médico, a isenção d IPI, ICMS e IOF caso precise d finaciamento p compra do carro.Isenção d IPTU - verifique se no Estado em q mora tem esse benefício. Aqui em SP aposentados por invalidez tem isenção d IPTU."
+        },
+        {
+        "id": 8,
+        "titulo": "Estou com efeitos colaterais do tratamento, o que eu faço?",
+        "descricao": "Lorem ipsum"
+        },
+        {
+        "id": 9,
+        "titulo": "Estou com efeitos colaterais do tratamento, o que eu faço?",
+        "descricao": "Lorem ipsum"
+        },
+        {
+        "id": 10,
+        "titulo": "Estou com efeitos colaterais do tratamento, o que eu faço?",
+        "descricao": "Lorem ipsum"
+        }
+    ]
+}

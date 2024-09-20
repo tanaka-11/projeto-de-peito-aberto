@@ -11,7 +11,7 @@ body {
   padding: 1rem;
 }
 
-/* Botão */
+/* Botão que abre o Modal */
 button {
   /* Cima/Baixo  Laterais
         0.6rem    1.2rem
@@ -91,7 +91,7 @@ button {
   z-index: 10;
 
   /* Cor de Fundo e Largura do Modal */
-  background-color: #c5c0c0;
+  background-color: #000000e3;
   width: 90%;
   max-height: 90%;
 
@@ -127,6 +127,7 @@ button {
 #modal-header h2 {
   margin: 16px;
   font-size: 2rem;
+  color: #e890fc;
 }
 
 /* Botão Fechar Modal */
@@ -148,20 +149,27 @@ ul li:focus {
 ul li p {
   font-weight: normal;
   font-size: 1.5rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(231, 53, 62, 0.9),
+    rgba(231, 96, 114, 0.92),
+    rgb(241, 46, 139, 0.8),
+    rgb(212, 20, 131),
+    rgb(226, 0, 247, 0.9)
+  );
+  padding: 24px;
 }
 
 /* Lista do Modal */
 #modal-list {
   margin: 8px 32px;
   padding: 16px;
+  color: #ffffff;
 }
 
 #modal-list-item.active {
   font-size: 1.8rem;
-  
 }
-
-
 
 /* Botão Enviar de Dentro do Modal */
 #send-modal:hover {
@@ -172,6 +180,7 @@ ul li p {
 /* Formulario do Modal */
 #modal-form {
   margin-left: 60%;
+  color: #ffffff;
 }
 
 /* Inputs do Formulario */
@@ -197,6 +206,7 @@ textarea {
   margin-left: 60%;
   margin-bottom: 16px;
   font-size: 2rem;
+  color: #e890fc;
 }
 
 /* Classe (hide) */

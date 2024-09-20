@@ -105,11 +105,11 @@ button {
   overflow: auto;
 
   /* Imagens de Fundo */
-  background-image: url("/assets/images/Vector.png"),
-    url("/assets/images/African women hugging and supporting each other.png"),
-    url("/assets/images/African woman touching her neck.png");
-  background-size: 30% 30%, 40% 40%, 30% 30%; /* Ajusta o tamanho das imagens */
-  background-position: top left, center right, bottom left; /* Define a posição das imagens */
+  background-image: url("/assets/images/Vector.svg"),
+    url("/assets/images/African women hugging and supporting each other.svg"),
+    url("/assets/images/African woman touching her neck.svg");
+  background-size: 60% 60%, 60% 60%, 70% 70%; /* Ajusta o tamanho das imagens */
+  background-position: -104px 16px, 624px 16px, 136px 200px; /* Define a posição das imagens */
   background-repeat: no-repeat, no-repeat, no-repeat; /* Evita repetição das imagens */
 }
 

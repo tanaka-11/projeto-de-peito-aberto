@@ -103,6 +103,14 @@ button {
 
   /* Rolagem de Tela */
   overflow: auto;
+
+  /* Imagens de Fundo */
+  background-image: url("/assets/images/Vector.png"),
+    url("/assets/images/African women hugging and supporting each other.png"),
+    url("/assets/images/African woman touching her neck.png");
+  background-size: 30% 30%, 40% 40%, 30% 30%; /* Ajusta o tamanho das imagens */
+  background-position: top left, center right, bottom left; /* Define a posição das imagens */
+  background-repeat: no-repeat, no-repeat, no-repeat; /* Evita repetição das imagens */
 }
 
 /* Cabeçalho do Modal (Titulo e button fechar) */

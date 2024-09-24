@@ -108,8 +108,8 @@ button {
   background-image: url("/assets/images/Vector.svg"),
     url("/assets/images/African women hugging and supporting each other.svg"),
     url("/assets/images/African woman touching her neck.svg");
-  background-size: 60% 60%, 60% 60%, 70% 70%; /* Ajusta o tamanho das imagens */
-  background-position: -104px 16px, 624px 16px, 136px 200px; /* Define a posição das imagens */
+  background-size: 60% 60%, 60% 60%, 72% 72%; /* Ajusta o tamanho das imagens */
+  background-position: -104px 16px, 524px 16px, 136px 94px; /* Define a posição das imagens */
   background-repeat: no-repeat, no-repeat, no-repeat; /* Evita repetição das imagens */
 }
 
@@ -159,13 +159,15 @@ ul li p {
   font-size: 1.5rem;
   background-image: linear-gradient(
     to bottom,
-    rgba(231, 53, 62, 0.9),
-    rgba(231, 96, 114, 0.92),
-    rgb(241, 46, 139, 0.8),
-    rgb(212, 20, 131),
-    rgb(226, 0, 247, 0.9)
+    rgba(231, 53, 62, 0.6),
+    rgba(231, 96, 114, 0.62),
+    rgb(241, 46, 139, 0.5),
+    rgb(212, 20, 131, 0.6),
+    rgb(226, 0, 247, 0.5)
   );
   padding: 24px;
+  border-radius: 6px;
+  max-width: 60%;
 }
 
 /* Lista do Modal */
@@ -187,8 +189,19 @@ ul li p {
 
 /* Formulario do Modal */
 #modal-form {
-  margin-left: 60%;
+  margin-left: 42%;
+  padding: 42px;
   color: #ffffff;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(231, 53, 62, 0.6),
+    rgba(231, 96, 114, 0.62),
+    rgb(241, 46, 139, 0.5),
+    rgb(212, 20, 131, 0.6),
+    rgb(226, 0, 247, 0.5)
+  );
+  
 }
 
 /* Inputs do Formulario */
@@ -211,7 +224,7 @@ textarea {
 }
 
 #modal-title-form {
-  margin-left: 60%;
+  margin-left: 80%;
   margin-bottom: 16px;
   font-size: 2rem;
   color: #e890fc;
@@ -231,4 +244,12 @@ textarea {
 
 .active {
   font-weight: bold;
+}
+
+span {
+  margin-left: 38%;
+  font-size: 1rem;
+  position: relative;
+  top: -34px;
+  left: 30px;
 }

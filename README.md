@@ -49,3 +49,7 @@ Foi feito um fluxograma para explicar como funcionaria a **codificação do moda
 Por se tratar de um desafio, devido ao fato de termos uma equipe pequena e apenas um desenvolvedor com noção de codigo, optamos por revisar conceitos sobre modais e sobre as linguagens **JavaScript**, **HTML** e **CSS** para que toda a equipe estivesse preparada para a parte de codificação do projeto
 
 ![Primeiro Layout](./assets/images/readme/primeiro-layout-codificado.png)
+
+## Segundo Layout Codificado
+Seguindo com o modelo escolhido pela cliente, nossos desenvolvedores projetaram um prototipo codificado do front-end 
+![Segundo Layout](./assets/images/readme/segundo-layout-codificado.png)

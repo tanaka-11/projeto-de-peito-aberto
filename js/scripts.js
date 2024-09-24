@@ -32,8 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
     function removeParagraphsAndActiveClass() {
       listItems.forEach(li => {
         const existingParagraph = li.querySelector("p");
+        const existingSpan = li.querySelector("span")
         if (existingParagraph) {
           li.removeChild(existingParagraph);
+          li.removeChild(existingSpan)
         }
         li.classList.remove("active");
       });
@@ -52,10 +54,13 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!existingParagraph) {
         // Cria um novo parágrafo
         const paragraph = document.createElement("p");
+        const span = document.createElement("span");
         paragraph.textContent = "Este é um parágrafo adicionado dinamicamente.";
+        span.textContent = "ONG Vilma Kano"
 
         // Adiciona o parágrafo ao item da lista clicado
         this.appendChild(paragraph);
+        this.appendChild(span);
 
         // Adiciona a classe 'active' ao item clicado
         this.classList.add("active");

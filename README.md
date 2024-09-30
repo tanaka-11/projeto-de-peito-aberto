@@ -47,9 +47,12 @@ Foi feito um fluxograma para explicar como funcionaria a **codificação do moda
 
 ## Primeiro Layout Codificado
 
-Por se tratar de um desafio, devido ao fato de termos uma equipe pequena e apenas um desenvolvedor com noção de codigo, optamos por revisar conceitos sobre **logica de programação**, **fluxogramas**, **pseudocodigo**, **testes de mesa** , **linguagens de programação em geral**, **modais** e sobre as linguagens especificas **JavaScript**, **HTML** e **CSS** para que toda a equipe estivesse preparada para a parte de codificação do projeto
+Por se tratar de um desafio, devido ao fato de termos uma equipe pequena e apenas um desenvolvedor com noção de código, optamos por revisar conceitos sobre **lógica de programação**, **fluxogramas**, **pseudocódigo**, **testes de mesa**, **linguagens de programação em geral**, **modais** e sobre as linguagens específicas **JavaScript**, **HTML** e **CSS** para que toda a equipe estivesse preparada para a parte de codificação do projeto
 
 ![Primeira Parte Estudos](./assets/images/readme/estudos.png)
+
+Nosso primeiro layout codificado
+
 ![Primeiro Layout](./assets/images/readme/primeiro-layout-codificado.png)
 
 ## Segundo Layout Codificado

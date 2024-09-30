@@ -77,6 +77,11 @@ button {
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
+/* Escondendo a barra de rolagem de dentro do modal */
+#modal::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem no WebKit (Chrome, Safari) */
+}
+
 /* Cabeçalho do Modal (Titulo e button fechar) */
 #modal-header {
   /* Deixando elementos do cabeçalho lado a lado */
@@ -127,7 +132,7 @@ ul li:focus {
 }
 ul li p {
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   background-image: linear-gradient(
     to bottom,
     rgba(231, 53, 62, 0.6),
@@ -192,6 +197,7 @@ input[type="mail"] {
 
 #modal-form textarea {
   max-width: 100%;
+  width: 100%;
   height: auto;
   padding: 2rem 1rem;
   margin: 0.5rem;
@@ -223,13 +229,10 @@ input[type="mail"] {
   font-weight: bold;
 }
 
-#modal::-webkit-scrollbar {
-  display: none; /* Esconde a barra de rolagem no WebKit (Chrome, Safari) */
-}
-
+/* Texto que aparece na caixa das respostas da pergunta */
 span {
-  margin-left: 38%;
-  font-size: 1rem;
+  margin-left: 45%;
+  font-size: 0.8rem;
   position: relative;
   top: -2rem;
   left: 1.875rem;

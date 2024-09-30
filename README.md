@@ -37,6 +37,7 @@ Pensando na proposta da cliente, nosso **primeiro modelo** foi feito visando a *
 Como tinhamos dois modelos, perguntamos para a cliente e ela escolheu nosso modelo mais detalhado. Discutimos com a equipe e decidimos basear o modelo na paleta e no estilo do site já existente porem matendo o mesmo **foco em acessibilidade**
 
 ![Segunda Ideia](./assets/images/readme/wireframe-alta-fidelidade-02.png)
+![Terceira Ideia](./assets/images/readme/wireframe-alta-fidelidade-03.png)
 
 ## Fluxograma
 
@@ -46,10 +47,12 @@ Foi feito um fluxograma para explicar como funcionaria a **codificação do moda
 
 ## Primeiro Layout Codificado
 
-Por se tratar de um desafio, devido ao fato de termos uma equipe pequena e apenas um desenvolvedor com noção de codigo, optamos por revisar conceitos sobre modais e sobre as linguagens **JavaScript**, **HTML** e **CSS** para que toda a equipe estivesse preparada para a parte de codificação do projeto
+Por se tratar de um desafio, devido ao fato de termos uma equipe pequena e apenas um desenvolvedor com noção de codigo, optamos por revisar conceitos sobre **logica de programação**, **fluxogramas**, **pseudocodigo**, **testes de mesa** , **linguagens de programação em geral**, **modais** e sobre as linguagens especificas **JavaScript**, **HTML** e **CSS** para que toda a equipe estivesse preparada para a parte de codificação do projeto
 
+![Primeira Parte Estudos](./assets/images/readme/estudos.png)
 ![Primeiro Layout](./assets/images/readme/primeiro-layout-codificado.png)
 
 ## Segundo Layout Codificado
-Seguindo com o modelo escolhido pela cliente, nossos desenvolvedores projetaram um prototipo codificado do front-end 
+
+Seguindo com o modelo escolhido pela cliente, nossos desenvolvedores projetaram um prototipo codificado do front-end
 ![Segundo Layout](./assets/images/readme/segundo-layout-codificado.png)

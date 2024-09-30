@@ -12,37 +12,15 @@ body {
 
 /* Botão que abre o Modal */
 button {
-  /* Cima/Baixo  Laterais
-        0.6rem    1.2rem
-*/
   padding: 0.6rem 1.2rem;
-
-  /* Cor de fundo */
-  background-color: #888;
-
-  /* Cor de texto */
   color: #fff;
-
-  /* Sem borda */
   border: none;
-
-  /* Arredondamento */
   border-radius: 0.25rem;
-
-  /* Cursor do mouse */
   cursor: pointer;
-
-  /* Opacidade */
   opacity: 0.7;
-
-  /* Tamanho do texto */
   font-size: 1rem;
-
-  /* Margem pra cima */
-  margin-top: 8px;
-
-  /* Margem pra baixo */
-  margin-bottom: 8px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Botão para abrir modal */
@@ -50,7 +28,7 @@ button {
   background-color: #007bff;
 }
 
-/* Background do modal e Modal ()*/
+/* Background do modal e Modal*/
 #fade,
 #modal {
   transition: 0.5s;
@@ -81,35 +59,22 @@ button {
 
 /* Estrutura do Modal */
 #modal {
-  /* Posição fixada */
   position: fixed;
-
-  /* Fixando Modal */
   left: 50%;
   top: 50%;
   z-index: 10;
-
-  /* Cor de Fundo e Largura do Modal */
   background-color: #000000e3;
   width: 90%;
-  max-height: 90%;
-
-  /* Alinhando ao meio */
+  height: 80%;
   transform: translate(-50%, -50%);
-
-  /* Arredondamento */
   border-radius: 0.5rem;
-
-  /* Rolagem de Tela */
-  overflow: auto;
-
-  /* Imagens de Fundo */
+  overflow: scroll;
   background-image: url("/assets/images/Vector.svg"),
     url("/assets/images/African women hugging and supporting each other.svg"),
     url("/assets/images/African woman touching her neck.svg");
-  background-size: 40vw 36vh, 40vw 50vh, 40vw 60vh; /* Ajusta o tamanho das imagens */
-  background-position: -2vw 1.6vh, 55vw -2vh, 16vw 24vh; /* Define a posição das imagens */
-  background-repeat: no-repeat, no-repeat, no-repeat; /* Evita repetição das imagens */
+  background-size: 40vw 36vh, 40vw 50vh, 40vw 60vh;
+  background-position: -2vw 1.6vh, 55vw -2vh, 16vw 24vh;
+  background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 /* Cabeçalho do Modal (Titulo e button fechar) */
@@ -127,163 +92,6 @@ button {
 /* Corpo do Modal (FAQ e Formulario) */
 #modal-body {
   height: 80%;
-  overflow-y: auto;
-}
-
-/* Titulo do Modal */
-#modal-header h2 {
-  margin: 16px 40px;
-  font-size: 2rem;
-  color: #e890fc;
-  font-weight: bold;
-}
-
-/* Botão Fechar Modal */
-#close-modal:hover {
-  background-color: #eb2c2c;
-}
-
-/* Lista Ordenada do Modal */
-ul li {
-  margin-bottom: 8px;
-  font-size: 1.3rem;
-}
-ul li:hover,
-ul li:focus {
-  font-size: 1.8rem;
-  cursor: pointer;
-  font-weight: bold;
-}
-ul li p {
-  font-weight: normal;
-  font-size: 1.5rem;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(231, 53, 62, 0.6),
-    rgba(231, 96, 114, 0.62),
-    rgb(241, 46, 139, 0.5),
-    rgb(212, 20, 131, 0.6),
-    rgb(226, 0, 247, 0.5)
-  );
-  padding: 24px;
-  border-radius: 6px;
-  max-width: 60%;
-}
-
-/* Lista do Modal */
-#modal-list {
-  margin: 16px 80px;
-  color: #ffffff;
-  /* line-height: 1.4rem; */
-}
-
-#modal-list-item.active {
-  font-size: 1.8rem;
-}
-
-/* Botão Enviar de Dentro do Modal */
-#send-modal:hover {
-  background-color: pink;
-  color: darkred;
-}
-
-/* Formulario do Modal */
-#modal-form {
-  margin-left: 42%;
-  padding: 42px;
-  color: #ffffff;
-  border-radius: 6px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(231, 53, 62, 0.6),
-    rgba(231, 96, 114, 0.62),
-    rgb(241, 46, 139, 0.5),
-    rgb(212, 20, 131, 0.6),
-    rgb(226, 0, 247, 0.5)
-  );
-}
-
-/* Reset Geral */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/* Corpo */
-body {
-  padding: 1rem;
-}
-
-/* Botão que abre o Modal */
-button {
-  padding: 0.6rem 1.2rem;
-  background-color: #888;
-  color: #fff;
-  border: none;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  opacity: 0.7;
-  font-size: 1rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Botão para abrir modal */
-#open-modal {
-  background-color: #007bff;
-}
-
-/* Background do modal e Modal ()*/
-#fade,
-#modal {
-  transition: 0.5s;
-  opacity: 1;
-  pointer-events: all;
-}
-
-/* Atributo para preencher completamente a tela (Background do Modal) */
-#fade {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: 5;
-}
-
-/* Estrutura do Modal */
-#modal {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  z-index: 10;
-  background-color: #000000e3;
-  width: 90%;
-  max-height: 90%;
-  transform: translate(-50%, -50%);
-  border-radius: 0.5rem;
-  overflow: auto;
-  background-image: url("/assets/images/Vector.svg"),
-    url("/assets/images/African women hugging and supporting each other.svg"),
-    url("/assets/images/African woman touching her neck.svg");
-  background-size: 40vw 36vh, 40vw 50vh, 40vw 60vh;
-  background-position: -2vw 1.6vh, 55vw -2vh, 16vw 24vh;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-}
-
-/* Cabeçalho do Modal (Titulo e button fechar) */
-#modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Corpo do Modal (FAQ e Formulario) */
-#modal-body {
-  height: 80%;
-  overflow-y: auto;
 }
 
 /* Titulo do Modal */
@@ -295,10 +103,17 @@ button {
 }
 
 /* Botão Fechar Modal */
+#close-modal {
+  margin-right: 16px;
+  font-size: 2rem;
+  color: #e890fc;
+  background-color: transparent;
+}
 #close-modal:hover {
   background-color: #eb2c2c;
 }
 
+/* Lista Ordenada do Modal */
 /* Lista Ordenada do Modal */
 ul li {
   margin-bottom: 0.5rem;
@@ -332,11 +147,16 @@ ul li p {
   color: #ffffff;
 }
 
+/* Class Active */
 #modal-list-item.active {
   font-size: 1.8rem;
 }
 
 /* Botão Enviar de Dentro do Modal */
+#send-modal {
+  width: 100%;
+  background-color: #e7353f;
+}
 #send-modal:hover {
   background-color: pink;
   color: darkred;
@@ -345,9 +165,9 @@ ul li p {
 /* Formulario do Modal */
 #modal-form {
   margin-left: 42%;
-  padding: 2.5rem;
+  padding: 42px;
   color: #ffffff;
-  border-radius: 0.375rem;
+  border-radius: 6px;
   background-image: linear-gradient(
     to bottom,
     rgba(231, 53, 62, 0.6),
@@ -360,19 +180,29 @@ ul li p {
 
 /* Inputs do Formulario */
 #modal-form input[type="text"],
-input[type="mail"],
-textarea {
-  width: 90%;
+input[type="mail"] {
+  width: 100%;
   height: auto;
   padding: 0.5rem 1rem;
   margin: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
+  line-height: 8px;
+}
+
+#modal-form textarea {
+  max-width: 100%;
+  height: auto;
+  padding: 2rem 1rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  line-height: 8px;
 }
 
 #modal-title-form {
   margin-left: 80%;
-  margin-bottom: 1rem;
+  margin-top: 4rem;
   font-size: 2rem;
   color: #e890fc;
 }
@@ -391,6 +221,10 @@ textarea {
 
 .active {
   font-weight: bold;
+}
+
+#modal::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem no WebKit (Chrome, Safari) */
 }
 
 span {

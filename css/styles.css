@@ -204,28 +204,176 @@ ul li p {
   );
 }
 
+/* Reset Geral */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  padding: 1rem;
+}
+
+/* Botão que abre o Modal */
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #888;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: 1rem;
+  margin-top: 0.5rem; /* Valor responsivo */
+  margin-bottom: 0.5rem; /* Valor responsivo */
+}
+
+/* Botão para abrir modal */
+#open-modal {
+  background-color: #007bff;
+}
+
+/* Background do modal e Modal ()*/
+#fade,
+#modal {
+  transition: 0.5s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* Atributo para preencher completamente a tela (Background do Modal) */
+#fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 5;
+}
+
+/* Estrutura do Modal */
+#modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+  background-color: #000000e3;
+  width: 90%;
+  max-height: 90%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  overflow: auto;
+  background-image: url("/assets/images/Vector.svg"),
+    url("/assets/images/African women hugging and supporting each other.svg"),
+    url("/assets/images/African woman touching her neck.svg");
+  background-size: 40vw 36vh, 40vw 50vh, 40vw 60vh;
+  background-position: -2vw 1.6vh, 55vw -2vh, 16vw 24vh;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+/* Cabeçalho do Modal (Titulo e button fechar) */
+#modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Corpo do Modal (FAQ e Formulario) */
+#modal-body {
+  height: 80%;
+  overflow-y: auto;
+}
+
+/* Titulo do Modal */
+#modal-header h2 {
+  margin: 1rem 2.5rem; /* Valores responsivos */
+  font-size: 2rem;
+  color: #e890fc;
+  font-weight: bold;
+}
+
+/* Botão Fechar Modal */
+#close-modal:hover {
+  background-color: #eb2c2c;
+}
+
+/* Lista Ordenada do Modal */
+ul li {
+  margin-bottom: 0.5rem; /* Valor responsivo */
+  font-size: 1.3rem;
+}
+ul li:hover,
+ul li:focus {
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+ul li p {
+  font-weight: normal;
+  font-size: 1.5rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(231, 53, 62, 0.6),
+    rgba(231, 96, 114, 0.62),
+    rgb(241, 46, 139, 0.5),
+    rgb(212, 20, 131, 0.6),
+    rgb(226, 0, 247, 0.5)
+  );
+  padding: 1.5rem; /* Valor responsivo */
+  border-radius: 0.375rem; /* Valor responsivo */
+  max-width: 60%;
+}
+
+/* Lista do Modal */
+#modal-list {
+  margin: 1rem 5rem; /* Valores responsivos */
+  color: #ffffff;
+}
+
+#modal-list-item.active {
+  font-size: 1.8rem;
+}
+
+/* Botão Enviar de Dentro do Modal */
+#send-modal:hover {
+  background-color: pink;
+  color: darkred;
+}
+
+/* Formulario do Modal */
+#modal-form {
+  margin-left: 42%;
+  padding: 2.5rem;
+  color: #ffffff;
+  border-radius: 0.375rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(231, 53, 62, 0.6),
+    rgba(231, 96, 114, 0.62),
+    rgb(241, 46, 139, 0.5),
+    rgb(212, 20, 131, 0.6),
+    rgb(226, 0, 247, 0.5)
+  );
+}
+
 /* Inputs do Formulario */
 #modal-form input[type="text"],
 input[type="mail"],
 textarea {
-  /* Largura */
   width: 90%;
-  height: 90%;
-
-  /* Espaçamento Interno */
-  padding: 8px 16px;
-
-  /* Margem */
-  margin: 8px;
-
-  /* Borda */
+  height: auto; /* Valor responsivo */
+  padding: 0.5rem 1rem; /* Valores responsivos */
+  margin: 0.5rem; /* Valor responsivo */
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0.25rem; /* Valor responsivo */
 }
 
 #modal-title-form {
   margin-left: 80%;
-  margin-bottom: 16px;
+  margin-bottom: 1rem; /* Valor responsivo */
   font-size: 2rem;
   color: #e890fc;
 }
@@ -250,6 +398,6 @@ span {
   margin-left: 38%;
   font-size: 1rem;
   position: relative;
-  top: -34px;
-  left: 30px;
+  top: -2rem; /* Valor responsivo */
+  left: 1.875rem; /* Valor responsivo */
 }

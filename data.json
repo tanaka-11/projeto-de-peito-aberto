@@ -1,45 +1,38 @@
 {
   "perguntas": {
     "1": {
-      "id": 1,
       "titulo": "Quero ganhar uma peruca",
       "descricao": "Clicando neste link você escolhe a peruca e envia a solicitação: http://vilmakano.org/banco-de-perucas/"
     },
     "2": {
-      "id": 2,
       "titulo": "Quero ser voluntária",
       "descricao": "Para fazer parte do time de voluntários da ONG Vilma Kano, oferecemos um curso online de 4 módulos. Quer fazer o curso?"
     },
     "3": {
-      "id": 3,
       "titulo": "Quero fazer a micropigmentação",
       "descricao": "Solicite a micropigmentação de sobrancelhas ou aréolas clicando neste link http://vilmakano.org/contato/"
     },
     "4": {
-      "id": 4,
       "titulo": "Preciso falar com um Psicólogo",
       "descricao": "Solicite a Terapia Psicológica enviando cópia dos seus documentos RG/CPF/CNH + Comprovante de tratamento oncológico de até 5 anos para o e-mail contato@vilmakano.org, com a palavra Psicólogo"
     },
     "5": {
-      "id": 5,
       "titulo": "Preciso falar com um Advogado",
-      "descricao": "Solicite orientações com nossos Advogdos clicando neste link http://vilmakano.org/contato/"
+      "descricao": "Solicite orientações com nossos Advogados clicando neste link http://vilmakano.org/contato/"
     },
     "6": {
-      "id": 6,
       "titulo": "Quero fazer uma Doação",
       "descricao": "Tem várias formas de fazer doações, clique aqui e veja de que forma pode nos ajudar http://vilmakano.org/doe-agora/"
     },
     "7": {
-      "id": 7,
       "titulo": "Quais são os direitos do paciente oncológico?",
       "descricao": {
-        "Ajuda de custo": "FD - ajuda d custo p quem viaja mais d 50km p fazer o tratamento oncológico no SUS. Fale c o seu médico.",
-        "Auxílio-doença": "Segurado pelo (INSS), incapacitado por mais de 15 dias consecutivos, sem a carência d 12 meses que exigem p outros casos. Agende a perícia médica e apresente seus laudos.",
+        "Ajuda de custo": "FD - ajuda de custo para quem viaja mais de 50km para fazer o tratamento oncológico no SUS. Fale com o seu médico.",
+        "Auxílio-doença": "Segurado pelo INSS, incapacitado por mais de 15 dias consecutivos, sem a carência de 12 meses que exigem para outros casos. Agende a perícia médica e apresente seus laudos.",
         "Saque do FGTS e do PIS/Pasep": "Trabalhador com câncer ou dependente deve apresentar os laudos e carteira de trabalho em uma agência da Caixa Econômica Federal.",
-        "BPC Loas": "Pessoa idosa, com 65 anos ou mais, e à pessoa com deficiência, com impedimentos de longo prazo que impeçam d garantir seu sustento ou de sua família.",
+        "BPC Loas": "Pessoa idosa, com 65 anos ou mais, e à pessoa com deficiência, com impedimentos de longo prazo que impeçam de garantir seu sustento ou de sua família.",
         "Medicamentos Gratuitos": "Pode ser obtido na UBS, no hospital ou em farmácia de alto custo do governo.",
-        "Transporte Público Gratuito": "Verifique no Município onde você mora há este benefício.",
+        "Transporte Público Gratuito": "Verifique no Município onde você mora se há este benefício.",
         "Liberação de Rodízio Municipal": "Em São Paulo, temos liberação do rodízio comprovando o tratamento oncológico pelo portal 156.",
         "Isenção de IPVA": "Verifique no Estado onde você mora se tem isenção. Aqui em SP, é necessário apresentar o laudo médico.",
         "Isenção do Imposto de Renda": "Relativo aos rendimentos de aposentadoria, pensão ou reserva/reforma. Deve ser solicitado à fonte pagadora com o laudo médico.",
@@ -48,7 +41,6 @@
       }
     },
     "8": {
-      "id": 8,
       "titulo": "Estou com efeitos colaterais do tratamento, o que eu faço?",
       "descricao": {
         "Queimaduras da radioterapia": "O método que utiliza radiação para conter o câncer pode afetar não só as células malignas, mas também as da pele da região tratada. A lesão provocada por ela, uma espécie de queimadura, é chamada de radiodermite, e aparece em quatro graus — de uma leve vermelhidão e descamação à perda da camada superior da derme, com sangramento e dor intensa.",
@@ -75,7 +67,7 @@
           "Esmaltes - Prefira os hipoalergênicos."
         ],
         "Pés e mãos sensíveis": "Quimioterapia pode causar descamação e dores nas mãos e pés.",
-        "Como cuidar pés e mãos sensiveis": [
+        "Como cuidar pés e mãos sensíveis": [
           "Secagem - Seque bem mãos e pés após o banho.",
           "Calçado - Use sapatos confortáveis e meias de algodão.",
           "Cremes - Hidratar as áreas afetadas é essencial."
@@ -97,14 +89,12 @@
       }
     },
     "9": {
-      "id": 9,
       "titulo": "Quero comprar uma Obra de Arte da Vilma Kano",
       "descricao": "Entre em contato com a minha representante: Almavera Escritório de Arte - R. Lisboa, 330 - Cerqueira César, São Paulo - SP, 05413-000 - almavera@almavera.com.br, Telefone: (11) 3088-8437 Whatsapp (11) 91358-1067"
     },
     "10": {
-      "id": 10,
       "titulo": "Outras dúvidas",
-      "descricao": "Clique neste link q envie a sua dúvida: http://vilmakano.org/contato/"
+      "descricao": "Clique neste link e envie a sua dúvida: http://vilmakano.org/contato/"
     }
   }
 }

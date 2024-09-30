@@ -108,8 +108,8 @@ button {
   background-image: url("/assets/images/Vector.svg"),
     url("/assets/images/African women hugging and supporting each other.svg"),
     url("/assets/images/African woman touching her neck.svg");
-  background-size: 60% 60%, 60% 60%, 72% 72%; /* Ajusta o tamanho das imagens */
-  background-position: -104px 16px, 524px 16px, 136px 94px; /* Define a posição das imagens */
+  background-size: 40vw 36vh, 40vw 50vh, 40vw 60vh; /* Ajusta o tamanho das imagens */
+  background-position: -2vw 1.6vh, 55vw -2vh, 16vw 24vh; /* Define a posição das imagens */
   background-repeat: no-repeat, no-repeat, no-repeat; /* Evita repetição das imagens */
 }
 
@@ -133,9 +133,10 @@ button {
 
 /* Titulo do Modal */
 #modal-header h2 {
-  margin: 16px;
+  margin: 16px 40px;
   font-size: 2rem;
   color: #e890fc;
+  font-weight: bold;
 }
 
 /* Botão Fechar Modal */
@@ -145,8 +146,8 @@ button {
 
 /* Lista Ordenada do Modal */
 ul li {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+  margin-bottom: 8px;
+  font-size: 1.3rem;
 }
 ul li:hover,
 ul li:focus {
@@ -172,9 +173,9 @@ ul li p {
 
 /* Lista do Modal */
 #modal-list {
-  margin: 8px 32px;
-  padding: 16px;
+  margin: 16px 80px;
   color: #ffffff;
+  /* line-height: 1.4rem; */
 }
 
 #modal-list-item.active {
@@ -201,7 +202,6 @@ ul li p {
     rgb(212, 20, 131, 0.6),
     rgb(226, 0, 247, 0.5)
   );
-  
 }
 
 /* Inputs do Formulario */

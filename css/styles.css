@@ -7,7 +7,6 @@
 
 /* Corpo */
 body {
-  /* Valor responsivo */
   padding: 1rem;
 }
 
@@ -226,8 +225,8 @@ button {
   cursor: pointer;
   opacity: 0.7;
   font-size: 1rem;
-  margin-top: 0.5rem; /* Valor responsivo */
-  margin-bottom: 0.5rem; /* Valor responsivo */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Botão para abrir modal */
@@ -289,7 +288,7 @@ button {
 
 /* Titulo do Modal */
 #modal-header h2 {
-  margin: 1rem 2.5rem; /* Valores responsivos */
+  margin: 1rem 2.5rem;
   font-size: 2rem;
   color: #e890fc;
   font-weight: bold;
@@ -302,7 +301,7 @@ button {
 
 /* Lista Ordenada do Modal */
 ul li {
-  margin-bottom: 0.5rem; /* Valor responsivo */
+  margin-bottom: 0.5rem;
   font-size: 1.3rem;
 }
 ul li:hover,
@@ -322,14 +321,14 @@ ul li p {
     rgb(212, 20, 131, 0.6),
     rgb(226, 0, 247, 0.5)
   );
-  padding: 1.5rem; /* Valor responsivo */
-  border-radius: 0.375rem; /* Valor responsivo */
+  padding: 1.5rem;
+  border-radius: 0.375rem;
   max-width: 60%;
 }
 
 /* Lista do Modal */
 #modal-list {
-  margin: 1rem 5rem; /* Valores responsivos */
+  margin: 1rem 5rem;
   color: #ffffff;
 }
 
@@ -364,16 +363,16 @@ ul li p {
 input[type="mail"],
 textarea {
   width: 90%;
-  height: auto; /* Valor responsivo */
-  padding: 0.5rem 1rem; /* Valores responsivos */
-  margin: 0.5rem; /* Valor responsivo */
+  height: auto;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 0.25rem; /* Valor responsivo */
+  border-radius: 0.25rem;
 }
 
 #modal-title-form {
   margin-left: 80%;
-  margin-bottom: 1rem; /* Valor responsivo */
+  margin-bottom: 1rem;
   font-size: 2rem;
   color: #e890fc;
 }
@@ -398,6 +397,6 @@ span {
   margin-left: 38%;
   font-size: 1rem;
   position: relative;
-  top: -2rem; /* Valor responsivo */
-  left: 1.875rem; /* Valor responsivo */
+  top: -2rem;
+  left: 1.875rem;
 }

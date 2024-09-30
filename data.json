@@ -1,54 +1,110 @@
 {
-    "perguntas" : [
-        { 
-        "id": 1,
-        "titulo": "Quero ganhar uma peruca",
-        "descricao": "Clicando neste link você escolhe a peruca e envia a solicitação: http://vilmakano.org/banco-de-perucas/"
-        },
-        { 
-        "id": 2,
-        "titulo": "Quero ser voluntária",
-        "descricao": "Para fazer parte do time de voluntários da ONG Vilma Kano, oferecemos um curso online de 4 módulos. Quer fazer o curso?"
-        },
-        {
-        "id": 3,
-        "titulo": "Quero fazer a micropigmentação",
-        "descricao": "Solicite a micropigmentação de sobrancelhas ou aréolas clicando neste link http://vilmakano.org/contato/"
-        },
-        {
-        "id": 4,
-        "titulo": "Preciso falar com um Psicólogo",
-        "descricao": "Solicite a Terapia Psicológica enviando cópia dos seus documentos RG/CPF/CNH + Comprovante de tratamento oncológico de até 5 anos para o e-mail contato@vilmakano.org, com a palavra Psicólogo"
-        },
-        {
-        "id": 5,
-        "titulo": "Preciso falar com um Advogado",
-        "descricao": "Solicite orientações com nossos Advogdos clicando neste link http://vilmakano.org/contato/"
-        },
-        {
-        "id": 6,
-        "titulo": "Quero fazer uma Doação",
-        "descricao": "Tem várias formas de fazer doações, clique aqui e veja de que forma pode nos ajudar http://vilmakano.org/doe-agora/"
-        },
-        {
-        "id": 7,
-        "titulo": "Quais são os direitos do paciente oncológico?",
-        "descricao": "FD - ajuda d custo p quem viaja mais d 50km p fazer o tratamento oncológico no SUS. Fale c o seu médico.Auxílio-doença - segurado pelo (INSS), incapacitado por mais de 15 dias consecutivos, sem a carência d 12 meses q exigem p outros casos. Agende a perícia médica e apresente seus laudos, se a data for superior a 30 dias, opte por “sem perícia “, tanto no site qto pelo app. Saque do FGTS e do PIS/ Pasep - trabalhador c câncer ou q tenha um dependente c câncer deve apresentar os laudos e carteira de trabalho, Cartão Cidadão ou inscrição PIS/Pasep, em uma agência da Caixa Econômica Federal. No caso do Pasep, a requisição deve ser feita no Banco do Brasil. BPC Loas - pessoa idosa, com 65 anos ou mais, e à pessoa com deficiência, de qualquer idade, com impedimentos d!longo prazo q impeçam d garantir seu sustento ou d se sua família. Medicamentos Gratuitos - vc pode pegar na UBS, no hospital ou em farmácia d alto custo do governo, no caso do seu medicamento não estar na lista fornecida pelo governo estadual. Transporte Público Gratuito - verifique no Município onde vc mora há este benefício. Aqui na capital temos direito ao bilhete único especial durante o tratamento oncológico. Não é válido p tratamento em remissão.Liberação d Rodízio Municipal - aqui em São Paulo, temos liberação do rodízio comprovando o tratamento oncológico pelo portal 156. Isenção d IPVA - verifique no Estado onde vc mora se tem isenção d IPVA. Se tiver, apresente o laudo médico e documentos pessoais e do carro. Aqui em SP, tem q dar entrada pelo SIVEI. Isenção do Imposto de Renda  - relativo aos rendimentos de aposentadoria, pensão ou reserva/reforma (Militares - O benefício deve ser solicitado à fonte pagadora apresentando o laudo médico. Não cabe sobre outros proventos como aluguéis de imóveis ou investimentos) Compra de veículos - Em casos de deficiência física nos membros inferiores ou superiores que impeçam a pessoa de dirigir veículos comuns, os pacientes podem requerer, mediante apresentação de laudo médico, a isenção d IPI, ICMS e IOF caso precise d finaciamento p compra do carro.Isenção d IPTU - verifique se no Estado em q mora tem esse benefício. Aqui em SP aposentados por invalidez tem isenção d IPTU."
-        },
-        {
-        "id": 8,
-        "titulo": "Estou com efeitos colaterais do tratamento, o que eu faço?",
-        "descricao": "Lorem ipsum"
-        },
-        {
-        "id": 9,
-        "titulo": "Estou com efeitos colaterais do tratamento, o que eu faço?",
-        "descricao": "Lorem ipsum"
-        },
-        {
-        "id": 10,
-        "titulo": "Estou com efeitos colaterais do tratamento, o que eu faço?",
-        "descricao": "Lorem ipsum"
-        }
-    ]
+  "perguntas": [
+    {
+      "id": 1,
+      "titulo": "Quero ganhar uma peruca",
+      "descricao": "Clicando neste link você escolhe a peruca e envia a solicitação: http://vilmakano.org/banco-de-perucas/"
+    },
+    {
+      "id": 2,
+      "titulo": "Quero ser voluntária",
+      "descricao": "Para fazer parte do time de voluntários da ONG Vilma Kano, oferecemos um curso online de 4 módulos. Quer fazer o curso?"
+    },
+    {
+      "id": 3,
+      "titulo": "Quero fazer a micropigmentação",
+      "descricao": "Solicite a micropigmentação de sobrancelhas ou aréolas clicando neste link http://vilmakano.org/contato/"
+    },
+    {
+      "id": 4,
+      "titulo": "Preciso falar com um Psicólogo",
+      "descricao": "Solicite a Terapia Psicológica enviando cópia dos seus documentos RG/CPF/CNH + Comprovante de tratamento oncológico de até 5 anos para o e-mail contato@vilmakano.org, com a palavra Psicólogo"
+    },
+    {
+      "id": 5,
+      "titulo": "Preciso falar com um Advogado",
+      "descricao": "Solicite orientações com nossos Advogdos clicando neste link http://vilmakano.org/contato/"
+    },
+    {
+      "id": 6,
+      "titulo": "Quero fazer uma Doação",
+      "descricao": "Tem várias formas de fazer doações, clique aqui e veja de que forma pode nos ajudar http://vilmakano.org/doe-agora/"
+    },
+    {
+      "id": 7,
+      "titulo": "Quais são os direitos do paciente oncológico?",
+      "descricao": {
+        "Ajuda de custo": "FD - ajuda d custo p quem viaja mais d 50km p fazer o tratamento oncológico no SUS. Fale c o seu médico.",
+        "Auxílio-doença": "Segurado pelo (INSS), incapacitado por mais de 15 dias consecutivos, sem a carência d 12 meses que exigem p outros casos. Agende a perícia médica e apresente seus laudos.",
+        "Saque do FGTS e do PIS/Pasep": "Trabalhador com câncer ou dependente deve apresentar os laudos e carteira de trabalho em uma agência da Caixa Econômica Federal.",
+        "BPC Loas": "Pessoa idosa, com 65 anos ou mais, e à pessoa com deficiência, com impedimentos de longo prazo que impeçam d garantir seu sustento ou de sua família.",
+        "Medicamentos Gratuitos": "Pode ser obtido na UBS, no hospital ou em farmácia de alto custo do governo.",
+        "Transporte Público Gratuito": "Verifique no Município onde você mora há este benefício.",
+        "Liberação de Rodízio Municipal": "Em São Paulo, temos liberação do rodízio comprovando o tratamento oncológico pelo portal 156.",
+        "Isenção de IPVA": "Verifique no Estado onde você mora se tem isenção. Aqui em SP, é necessário apresentar o laudo médico.",
+        "Isenção do Imposto de Renda": "Relativo aos rendimentos de aposentadoria, pensão ou reserva/reforma. Deve ser solicitado à fonte pagadora com o laudo médico.",
+        "Compra de veículos": "Pacientes com deficiência física podem requerer isenção de IPI, ICMS e IOF com laudo médico.",
+        "Isenção de IPTU": "Verifique se no seu Estado existe este benefício. Aposentados por invalidez em SP têm isenção."
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Estou com efeitos colaterais do tratamento, o que eu faço?",
+      "descricao": {
+        "Queimaduras da radioterapia": "O método que utiliza radiação para conter o câncer pode afetar não só as células malignas, mas também as da pele da região tratada. A lesão provocada por ela, uma espécie de queimadura, é chamada de radiodermite, e aparece em quatro graus — de uma leve vermelhidão e descamação à perda da camada superior da derme, com sangramento e dor intensa.",
+        "Como cuidar queimadura": [
+          "Hidratação - Manter a pele hidratada ajuda a diminuir o risco e a intensidade das queimaduras.",
+          "Área livre - Na hora da sessão, a região irradiada deve estar totalmente limpa, sem cremes ou outros produtos.",
+          "Limpeza - O ideal é higienizar a área uma vez ao dia, de preferência com xampu infantil diluído.",
+          "Delicadeza - Não use esfoliantes e não esfregue o local, tomando o mesmo cuidado ao se secar com a toalha.",
+          "Roupas - Dispense blusas apertadas, sutiãs com bojo ou metais e prefira tecidos de algodão para evitar irritações."
+        ],
+        "Boca machucada": "A cavidade bucal sofre com os tratamentos oncológicos. A quimioterapia ataca as células que se dividem rapidamente, como as da mucosa oral, levando à mucosite, uma inflamação local que causa dor.",
+        "Como cuidar boca machucada": [
+          "Umidade - Beber água e outros líquidos é sempre bem-vindo. Cítricos caem bem quando não existem feridas.",
+          "Língua controlada - Resista à tentação de passar a língua no machucado.",
+          "Escova de dentes - Prefira as com cerdas delicadas e busque fazer movimentos suaves.",
+          "Produtos - Evite pastas abrasivas e bochechos com álcool. Use hidratantes labiais.",
+          "Alimentação - Priorize, se necessário, alimentos macios."
+        ],
+        "Unhas fracas": "Elas são alvo fácil da quimioterapia. Mantenha as unhas sempre curtas e evite o uso excessivo de esmaltes.",
+        "Como cuidar unha fraca": [
+          "Sempre curtas - Mantenha-as aparadas.",
+          "Material esterilizado - Use cortadores e palitos esterilizados.",
+          "Cutículas - Não remova e hidrate com frequência.",
+          "Esmaltes - Prefira os hipoalergênicos."
+        ],
+        "Pés e mãos sensíveis": "Quimioterapia pode causar descamação e dores nas mãos e pés.",
+        "Como cuidar pés e mãos sensiveis": [
+          "Secagem - Seque bem mãos e pés após o banho.",
+          "Calçado - Use sapatos confortáveis e meias de algodão.",
+          "Cremes - Hidratar as áreas afetadas é essencial."
+        ],
+        "Queda de cabelo": "Um efeito colateral conhecido da quimioterapia.",
+        "Como cuidar queda de cabelo": [
+          "Ao lavar - Use xampus suaves.",
+          "Ao se expor ao sol - Proteja o couro cabeludo."
+        ],
+        "Espinhas": "Lesões acneiformes podem surgir durante o tratamento.",
+        "Como cuidar espinhas": [
+          "Erupção à vista - Não use produtos comuns para espinhas.",
+          "Em casa - Troque roupas de cama com frequência.",
+          "Nada de espremer - Isso pode piorar a situação."
+        ],
+        "Cuidados extras na pandemia": "Hidratação das mãos e uso de produtos neutros são recomendados.",
+        "Atenção ao sol": "A quimioterapia pode aumentar a sensibilidade à luz solar.",
+        "Dicas de depilação": "Use métodos suaves e produtos hipoalergênicos."
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "Quero comprar uma Obra de Arte da Vilma Kano",
+      "descricao": "Entre em contato com a minha representante: Almavera Escritório de Arte - R. Lisboa, 330 - Cerqueira César, São Paulo - SP, 05413-000 - almavera@almavera.com.br, Telefone: (11) 3088-8437 Whatsapp (11) 91358-1067"
+    },
+    {
+      "id": 10,
+      "titulo": "Outras dúvidas",
+      "descricao": "Clique neste link q envie a sua dúvida: http://vilmakano.org/contato/"
+    }
+  ]
 }

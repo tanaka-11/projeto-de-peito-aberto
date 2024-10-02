@@ -8,8 +8,14 @@
     <!-- Link para a pasta css -->
     <link rel="stylesheet" href="css/styles.css" />
 
+     <!-- Firebase SDKs com type="module" propriedade que transforma o script em um módulo JavaScript, permitindo uma organização melhor do codigo, evitando conflitos de escopo e facilitando a reutilização de funcionalidades entre arquivos para desenvolver aplicações web modernas -->
+     <script type="module" src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+
+     <!-- Firebase Database SDK -->
+     <script type="module" src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js"></script>
+
     <!-- Link para a pasta javascript com atributo "defer" que serve para que o carregamento do script seja depois do carregamento do HTML prevenindo erros de script -->
-    <script src="js/scripts.js" defer></script>
+    <script type="module" src="js/scripts.js" defer></script>
   </head>
   <body>
     <!-- Titulo -->
@@ -36,11 +42,7 @@
       <div id="modal-body">
 
         <!-- FAQ (Lista Ordenada) -->
-        <ul id="modal-list">
-            <li id="modal-list-item">Lorem ipsum</li>
-            <li id="modal-list-item">Lorem ipsum</li>
-            <li id="modal-list-item">Lorem ipsum</li>
-        </ul>
+        <ol id="modal-list"></ol>
 
         <!-- Titulo do Formulario -->
         <h2 id="modal-title-form">Fale Conosco</h2>

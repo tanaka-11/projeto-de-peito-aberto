@@ -119,7 +119,6 @@ button {
 }
 
 /* Lista Ordenada do Modal */
-/* Lista Ordenada do Modal */
 ul li {
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
@@ -159,8 +158,12 @@ ul li p {
 
 /* Botão Enviar de Dentro do Modal */
 #send-modal {
-  width: 100%;
+  width: 46vw;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
   background-color: #e7353f;
+  color: #fff;
+
 }
 #send-modal:hover {
   background-color: pink;
@@ -170,7 +173,7 @@ ul li p {
 /* Formulario do Modal */
 #modal-form {
   margin-left: 42%;
-  padding: 42px;
+  padding: 40px;
   color: #ffffff;
   border-radius: 6px;
   background-image: linear-gradient(

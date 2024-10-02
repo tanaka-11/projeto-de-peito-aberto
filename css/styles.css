@@ -10,7 +10,7 @@ body {
   padding: 1rem;
 }
 
-/* Botão que abre o Modal */
+/* Botões */
 button {
   padding: 0.6rem 1.2rem;
   color: #fff;
@@ -19,87 +19,71 @@ button {
   cursor: pointer;
   opacity: 0.7;
   font-size: 1rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem 0;
 }
 
-/* Botão para abrir modal */
 #open-modal {
   background-color: #007bff;
 }
 
-/* Background do modal e Modal*/
-#fade,
-#modal {
-  transition: 0.5s;
-  opacity: 1;
-  pointer-events: all;
+#close-modal {
+  margin-right: 16px;
+  font-size: 2rem;
+  color: #e890fc;
+  background-color: transparent;
 }
 
-/* Atributo para preencher completamente a tela (Background do Modal) */
+#close-modal:hover {
+  background-color: #eb2c2c;
+}
+
+/* Modal e Background */
+#fade,
+#modal {
+  transition: opacity 0.5s;
+}
+
 #fade {
-  /* Posição fixada */
   position: fixed;
-
-  /* Distancia */
   top: 0;
-  /* Canto superior esquerdo */
   left: 0;
-
-  /* Largura e Altura */
   width: 100%;
   height: 100%;
-
-  /* Cor de fundo com opacidade */
   background-color: rgba(0, 0, 0, 0.4);
-
-  /*  Tudo fica atras dele exceto o modal */
   z-index: 5;
 }
 
-/* Estrutura do Modal */
 #modal {
   position: fixed;
-  left: 50%;
   top: 50%;
+  left: 50%;
   z-index: 10;
-  background-color: #000000e3;
+  background-color: rgba(0, 0, 0, 0.89);
   width: 90%;
   height: 80%;
   transform: translate(-50%, -50%);
   border-radius: 0.5rem;
-  overflow: scroll;
+  overflow-y: auto; /* Ajuste para uma rolagem suave */
   background-image: url("/assets/images/Vector.svg"),
     url("/assets/images/African women hugging and supporting each other.svg"),
     url("/assets/images/African woman touching her neck.svg");
   background-size: 40vw 36vh, 40vw 50vh, 40vw 60vh;
   background-position: -2vw 1.6vh, 55vw -2vh, 16vw 24vh;
-  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 
-/* Escondendo a barra de rolagem de dentro do modal */
+/* Esconder a barra de rolagem do modal */
 #modal::-webkit-scrollbar {
-  display: none; /* Esconde a barra de rolagem no WebKit (Chrome, Safari) */
+  display: none;
 }
 
-/* Cabeçalho do Modal (Titulo e button fechar) */
+/* Cabeçalho do Modal */
 #modal-header {
-  /* Deixando elementos do cabeçalho lado a lado */
   display: flex;
-
-  /* Espaçamento entre os elementos */
   justify-content: space-between;
-
-  /* Alinhando elementos ao centro */
   align-items: center;
 }
 
-/* Corpo do Modal (FAQ e Formulario) */
-#modal-body {
-  height: 80%;
-}
-
-/* Titulo do Modal */
 #modal-header h2 {
   margin: 1rem 2.5rem;
   font-size: 2rem;
@@ -107,29 +91,31 @@ button {
   font-weight: bold;
 }
 
-/* Botão Fechar Modal */
-#close-modal {
-  margin-right: 16px;
-  font-size: 2rem;
-  color: #e890fc;
-  background-color: transparent;
-}
-#close-modal:hover {
-  background-color: #eb2c2c;
+/* Corpo do Modal */
+#modal-body {
+  height: 80%;
 }
 
-/* Lista Ordenada do Modal */
-ul li {
+/* Lista do Modal */
+#modal-list {
+  margin: 1rem 5rem;
+  color: #ffffff;
+}
+
+ol li {
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
+  transition: font-size 0.2s; /* Transição suave ao aumentar o tamanho */
 }
-ul li:hover,
-ul li:focus {
+
+ol li:hover,
+ol li:focus {
   font-size: 1.5rem;
   cursor: pointer;
   font-weight: bold;
 }
-ul li p {
+
+ol li p {
   font-weight: normal;
   font-size: 1.3rem;
   background-image: linear-gradient(
@@ -145,32 +131,27 @@ ul li p {
   max-width: 60%;
 }
 
-/* Lista do Modal */
-#modal-list {
-  margin: 1rem 5rem;
-  color: #ffffff;
-}
-
-/* Class Active */
+/* Classe Active */
 #modal-list-item.active {
   font-size: 1.8rem;
 }
 
-/* Botão Enviar de Dentro do Modal */
+/* Botão Enviar do Modal */
 #send-modal {
   width: 46vw;
   padding: 0.5rem 1rem;
   margin: 0.5rem;
   background-color: #e7353f;
   color: #fff;
-
+  transition: background-color 0.3s, color 0.3s; /* Transição suave para o hover */
 }
+
 #send-modal:hover {
   background-color: pink;
   color: darkred;
 }
 
-/* Formulario do Modal */
+/* Formulário do Modal */
 #modal-form {
   margin-left: 42%;
   padding: 40px;
@@ -186,27 +167,19 @@ ul li p {
   );
 }
 
-/* Inputs do Formulario */
+/* Inputs do Formulário */
 #modal-form input[type="text"],
-input[type="mail"] {
+#modal-form input[type="mail"],
+#modal-form textarea {
   width: 100%;
-  height: auto;
   padding: 0.5rem 1rem;
   margin: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
-  line-height: 8px;
 }
 
 #modal-form textarea {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
   padding: 2rem 1rem;
-  margin: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-  line-height: 8px;
 }
 
 #modal-title-form {
@@ -216,20 +189,15 @@ input[type="mail"] {
   color: #e890fc;
 }
 
-/* Classe (hide) */
+/* Classe hide */
 #modal.hide,
 #fade.hide {
   opacity: 0;
   pointer-events: none;
 }
 
-/* Transição de Fechamento do Modal */
 #modal.hide {
   top: 0;
-}
-
-.active {
-  font-weight: bold;
 }
 
 /* Texto que aparece na caixa das respostas da pergunta */
@@ -239,4 +207,9 @@ span {
   position: relative;
   top: -2rem;
   left: 1.875rem;
+}
+
+/* Estilos Adicionais */
+.active {
+  font-weight: bold;
 }

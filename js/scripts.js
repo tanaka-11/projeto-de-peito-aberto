@@ -1,77 +1,92 @@
-// Criação de variaveis de interaçÃo do modal atraves do id
-// Open Modal
-const openModalButton = document.querySelector("#open-modal");
-// Close Modal
-const closeModalButton = document.querySelector("#close-modal");
-// Modal
-const modal = document.querySelector("#modal");
-// Background do Modal
-const fade = document.querySelector("#fade");
+import { database } from "./db.js"; // Importa o banco de dados do arquivo db.js
+import {
+  ref,
+  onValue,
+} from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js"; // Importa funções do Firebase para trabalhar com o banco de dados
 
-// Função de alternar "hide" ou não do modal e fade
-const toggleModal = () => {
-  modal.classList.toggle("hide");
-  fade.classList.toggle("hide");
+// Função para abrir o modal
+const openModal = () => {
+  // Remove a classe 'hide' para mostrar o modal e a sobreposição
+  document.getElementById("modal").classList.remove("hide");
+  document.getElementById("fade").classList.remove("hide");
 };
 
-// aoClicar no botão execute a função toggleModal
-[openModalButton, closeModalButton, fade].forEach((elemento) => {
-  elemento.addEventListener("click", () => toggleModal());
-});
+// Função para fechar o modal e ocultar todas as descrições
+const closeModal = () => {
+  // Adiciona a classe 'hide' para esconder o modal e a sobreposição
+  document.getElementById("modal").classList.add("hide");
+  document.getElementById("fade").classList.add("hide");
+  hideAllDescriptions(); // Esconde todas as descrições ao fechar o modal
+};
 
-// Resposta Dinamica do FAQ
-document.addEventListener("DOMContentLoaded", function () {
-  // Selecionando todos os itens da lista
-  const listItems = document.querySelectorAll("#modal-list li");
+// Função para ocultar todas as descrições dentro do modal
+const hideAllDescriptions = () => {
+  // Seleciona todos os elementos <p> na lista do modal e os oculta
+  document.querySelectorAll("#modal-list p").forEach((element) => {
+    element.style.display = "none"; // Esconde a descrição definindo a exibição como 'none'
+  });
+};
 
-  // Seleciona o fundo do modal e o próprio modal
-  const fade = document.getElementById("fade");
-  const modal = document.getElementById("modal");
+// Função para adicionar um clique ao fundo do modal
+const addModalClickListener = () => {
+  // Fecha o modal quando clica no fundo
+  document.getElementById("fade").addEventListener("click", closeModal);
+};
 
-    // Função para remover todos os parágrafos e classes 'active'
-    function removeParagraphsAndActiveClass() {
-      listItems.forEach(li => {
-        const existingParagraph = li.querySelector("p");
-        const existingSpan = li.querySelector("span")
-        if (existingParagraph) {
-          li.removeChild(existingParagraph);
-          li.removeChild(existingSpan)
-        }
-        li.classList.remove("active");
-      });
-    }
+// Função para buscar perguntas do Firebase e preencher a lista
+const fetchQuestions = () => {
+  // Referência para a seção 'perguntas' no banco de dados do Firebase
+  const questionsRef = ref(database, "perguntas");
 
-  // Adiciona um evento de clique a cada item da lista
-  listItems.forEach((item) => {
-    item.addEventListener("click", function (event) {
-      // Impede a propagação do clique para o modal
-      event.stopPropagation();
-      // Remove todos os parágrafos existentes
-      removeParagraphsAndActiveClass();
+  // Escuta mudanças nas perguntas
+  onValue(questionsRef, (snapshot) => {
+    const questions = snapshot.val(); // Obtém as perguntas do banco de dados
+    const modalList = document.getElementById("modal-list");
+    modalList.innerHTML = ""; // Limpa a lista antes de adicionar novas perguntas
 
-      // Verifica se o item clicado já tem um parágrafo
-      const existingParagraph = this.querySelector("p");
-      if (!existingParagraph) {
-        // Cria um novo parágrafo
-        const paragraph = document.createElement("p");
-        const span = document.createElement("span");
-        paragraph.textContent = "Este é um parágrafo adicionado dinamicamente.";
-        span.textContent = "ONG Vilma Kano"
+    // Para cada pergunta no banco de dados
+    Object.entries(questions).forEach(([key, { titulo, descricao }]) => {
+      const li = document.createElement("li"); // Cria um item de lista para cada pergunta
+      li.textContent = titulo; // Define o texto do item como o título da pergunta
 
-        // Adiciona o parágrafo ao item da lista clicado
-        this.appendChild(paragraph);
-        this.appendChild(span);
+      const descriptionElement = document.createElement("p"); // Cria um parágrafo para a descrição
+      descriptionElement.style.display = "none"; // Começa escondido
 
-        // Adiciona a classe 'active' ao item clicado
-        this.classList.add("active");
-      } else {
-        removeParagraphsAndActiveClass();
+      // Verifica se a descrição é uma string ou um objeto
+      if (typeof descricao === "string") {
+        descriptionElement.textContent = descricao; // Se for uma string, define o texto
+      } else if (typeof descricao === "object") {
+        const ul = document.createElement("ul"); // Cria uma nova lista para descrições detalhadas
+        Object.entries(descricao).forEach(([descKey, descValue]) => {
+          const descLi = document.createElement("li"); // Cria um item de lista para cada detalhe
+          descLi.textContent = `${descKey}: ${descValue}`; // Formata como "chave: valor"
+          ul.appendChild(descLi); // Adiciona o detalhe à lista
+        });
+        descriptionElement.appendChild(ul); // Adiciona a lista de detalhes à descrição
       }
+
+      // Adiciona um clique no item da lista para mostrar/ocultar a descrição
+      li.addEventListener("click", (event) => {
+        event.stopPropagation(); // Impede que o clique feche o modal
+        hideAllDescriptions(); // Esconde todas as descrições antes de mostrar a nova
+        descriptionElement.style.display =
+          descriptionElement.style.display === "block" ? "none" : "block"; // Alterna entre mostrar e esconder a descrição
+      });
+
+      li.appendChild(descriptionElement); // Adiciona a descrição ao item da lista
+      modalList.appendChild(li); // Adiciona o item da lista ao modal
     });
   });
+};
 
-  // Adiciona um evento de clique ao fundo do modal
-  fade.addEventListener("click", removeParagraphsAndActiveClass);
-  // Adiciona um evento de clique ao próprio modal
-  modal.addEventListener("click", removeParagraphsAndActiveClass);
-});
+// Fecha o modal quando o botão de fechar é clicado
+document.getElementById("close-modal").addEventListener("click", closeModal);
+
+// Adiciona um evento para fechar o modal ao clicar no fundo
+addModalClickListener();
+
+// Abre o modal quando o botão correspondente é clicado
+document.getElementById("open-modal").addEventListener("click", openModal);
+
+// Chama a função para buscar as perguntas do Firebase
+fetchQuestions();

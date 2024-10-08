@@ -47,6 +47,7 @@ const fetchQuestions = () => {
     // Para cada pergunta no banco de dados
     Object.entries(questions).forEach(([key, { titulo, descricao }]) => {
       const li = document.createElement("li"); // Cria um item de lista para cada pergunta
+
       li.textContent = titulo; // Define o texto do item como o título da pergunta
 
       const descriptionElement = document.createElement("p"); // Cria um parágrafo para a descrição
@@ -59,10 +60,21 @@ const fetchQuestions = () => {
         const ul = document.createElement("ul"); // Cria uma nova lista para descrições detalhadas
         Object.entries(descricao).forEach(([descKey, descValue]) => {
           const descLi = document.createElement("li"); // Cria um item de lista para cada detalhe
-          descLi.textContent = `${descKey}: ${descValue}`; // Formata como "chave: valor"
+
+          // Cria o <span> para o título e formata
+          const titleSpan = document.createElement("span");
+          titleSpan.className = "titulo"; // Troquei para a classe 'titulo'
+          titleSpan.textContent = descKey.replace(/([A-Z])/g, " $1").trim(); // Formata a chave
+
+          descLi.innerHTML = `${titleSpan.outerHTML}: ${descValue}`; // Adiciona o título e a descrição
           ul.appendChild(descLi); // Adiciona o detalhe à lista
         });
         descriptionElement.appendChild(ul); // Adiciona a lista de detalhes à descrição
+      }
+
+      // Adiciona a classe para formatar as descrições da pergunta 7 e 8
+      if (key === "7" || key === "8") {
+        descriptionElement.classList.add("descricao-special");
       }
 
       // Adiciona um clique no item da lista para mostrar/ocultar a descrição

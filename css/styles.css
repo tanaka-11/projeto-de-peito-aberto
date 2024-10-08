@@ -213,3 +213,29 @@ span {
 .active {
   font-weight: bold;
 }
+
+/* Classe para títulos com espaçamento */
+.titulo {
+  margin: 8px;
+  position: relative;
+  top: 0px;
+  left: 1px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #e890fc;
+  font-weight: bolder;
+  border-bottom: 2px solid #e890fc;
+}
+
+/* Adicionando estilo para as descrições das perguntas 7 e 8 */
+.descricao-special {
+  margin: 1rem 0;
+}
+
+.descricao-special li {
+  list-style: none;
+}
+
+.descricao-special:hover {
+  text-transform: none;
+}

@@ -59,3 +59,11 @@ Nosso primeiro layout codificado
 
 Seguindo com o modelo escolhido pela cliente, nossos desenvolvedores projetaram um prototipo codificado do front-end
 ![Segundo Layout](./assets/images/readme/segundo-layout-codificado.png)
+
+## Terceiro Layout Codificado
+
+Após a codificação do front-end, nossa equipe discutiu e escolhemos integrar o Firebase como back-end. O Firebase é uma plataforma Backend-as-a-Service (BaaS) baseada na infraestrutura do Google, que escala automaticamente. Como BaaS, ele oferece uma estrutura de back-end pronta e gerenciada, permitindo que os desenvolvedores se concentrem no front-end, enquanto o back-end (banco de dados, autenticação, etc.) é fornecido e administrado pela plataforma. Isso evita a necessidade de configurar e manter servidores, tornando o desenvolvimento mais rápido e eficiente.
+
+![Estrutura do Banco de Dados](./assets/images/readme/estrutura-firebase.png)
+
+![Terceiro Layout](./assets/images/readme/terceiro-layout-codificado.png)

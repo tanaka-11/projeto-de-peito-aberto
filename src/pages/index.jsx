@@ -22,26 +22,36 @@ export default function Home() {
     setActiveQuestion((prevKey) => (prevKey === key ? null : key));
   };
 
-  // Formatar as chaves das subdescrições para exibição legível.
   const formatKey = (key) => {
-    return key
-      .replace(/([A-Z])/g, " $1") // Adiciona espaço antes das maiúsculas.
-      .replace(/^./, (str) => str.toUpperCase()); // Torna a primeira letra maiúscula.
+    // Passo 1: Substituir "e" entre siglas por marcador temporário (minúsculo)
+    let formattedKey = key.replace(/([A-Z]{2,})(e)([A-Z]{2,})/g, "$1{{e}}$3");
+
+    // Passo 2: Adicionar espaço entre letras minúsculas e maiúsculas
+    formattedKey = formattedKey.replace(/([a-z])([A-Z])/g, "$1 $2");
+
+    // Passo 3: Restaurar o "e" entre siglas com o marcador temporário e manter ele minúsculo
+    formattedKey = formattedKey.replace(/\{\{e\}\}/g, " e ");
+
+    // Passo 4: Garantir que a primeira letra seja maiúscula
+    formattedKey = formattedKey.replace(/^./, (str) => str.toUpperCase());
+
+    // Passo 5: Remover espaços extras no início e no final
+    return formattedKey.trim();
   };
 
   // Submissão do formulário com validação básica.
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const nome = e.target.nome.value.trim();
-    const email = e.target.mail.value.trim();
-    const mensagem = e.target.mensagem.value.trim();
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const nome = event.target.nome.value.trim();
+    const email = event.target.mail.value.trim();
+    const mensagem = event.target.mensagem.value.trim();
 
     if (!nome || !email || !mensagem) {
       alert("Todos os campos são obrigatórios!");
       return;
     }
     alert("Mensagem enviada com sucesso!");
-    e.target.reset();
+    event.target.reset();
   };
 
   return (

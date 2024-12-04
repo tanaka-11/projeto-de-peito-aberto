@@ -67,3 +67,9 @@ Após a codificação do front-end, nossa equipe discutiu e escolhemos integrar 
 ![Estrutura do Banco de Dados](./assets/images/readme/estrutura-firebase.png)
 
 ![Terceiro Layout](./assets/images/readme/terceiro-layout-codificado.png)
+
+## Quarto Layout Codificado
+
+Após fazer o código em HTML, CSS e JavaScript, nossa equipe optou por migrar para o framework Next.js. Essa decisão foi tomada devido à facilidade de integração com o Firebase ao utilizar React, além de proporcionar uma experiência de desenvolvimento mais ágil e simplificada em comparação ao JavaScript puro que foi utilizado apenas para fins institucionais.
+
+![Codigo em Next](./assets/images/readme/quarto-layout-codificado.png)

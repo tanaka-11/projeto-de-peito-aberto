@@ -11,6 +11,8 @@ Decidimos faze-lo em **javascript, html** e **css** por ser uma interação e se
 
 <a href="https://github.com/KathleenFerreira18">Kathleen Ferreira <b>(3022101127)</b></a>
 
+<a href="https://github.com/anna-clara-ds">Anna Clara <b>(3024203385)</b></a>
+
 ## Wireframe
 
 **Demos duas opções para a cliente:**

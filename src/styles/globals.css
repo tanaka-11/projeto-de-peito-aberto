@@ -1,0 +1,243 @@
+/* src/styles/globals.css */
+
+/* Reset Geral */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  padding: 1rem;
+}
+
+/* Botões */
+button {
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+#open-modal {
+  background-color: #007bff;
+}
+
+#close-modal {
+  margin-right: 16px;
+  font-size: 2rem;
+  color: #e890fc;
+  background-color: transparent;
+}
+
+#close-modal:hover {
+  background-color: #eb2c2c;
+}
+
+/* Modal e Background */
+#fade,
+#modal {
+  transition: opacity 0.5s;
+}
+
+#fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 5;
+}
+
+#modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.89);
+  width: 90%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  overflow-y: auto; /* Ajuste para uma rolagem suave */
+  background-image: url("../assets/images/Vector.svg"),
+    url("../assets/images/African women hugging and supporting each other.svg"),
+    url("../assets/images/African woman touching her neck.svg");
+  background-size: 40vw 36vh, 40vw 50vh, 40vw 60vh;
+  background-position: -2vw 1.6vh, 55vw -2vh, 16vw 24vh;
+  background-repeat: no-repeat;
+}
+
+/* Esconder a barra de rolagem do modal */
+#modal::-webkit-scrollbar {
+  display: none;
+}
+
+/* Cabeçalho do Modal */
+#modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#modal-header h2 {
+  margin: 1rem 2.5rem;
+  font-size: 2rem;
+  color: #e890fc;
+  font-weight: bold;
+}
+
+/* Corpo do Modal */
+#modal-body {
+  height: 80%;
+}
+
+/* Lista do Modal */
+#modal-list {
+  margin: 1rem 5rem;
+  color: #ffffff;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  transition: font-size 0.2s; /* Transição suave ao aumentar o tamanho */
+}
+
+ol li:hover,
+ol li:focus {
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ol li p {
+  font-weight: normal;
+  font-size: 1.3rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(231, 53, 62, 0.6),
+    rgba(231, 96, 114, 0.62),
+    rgb(241, 46, 139, 0.5),
+    rgb(212, 20, 131, 0.6),
+    rgb(226, 0, 247, 0.5)
+  );
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  max-width: 60%;
+}
+
+/* Classe Active */
+#modal-list-item.active {
+  font-size: 1.8rem;
+}
+
+/* Botão Enviar do Modal */
+#send-modal {
+  width: 46vw;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: #e7353f;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s; /* Transição suave para o hover */
+}
+
+#send-modal:hover {
+  background-color: pink;
+  color: darkred;
+}
+
+/* Formulário do Modal */
+#modal-form {
+  margin-left: 42%;
+  padding: 40px;
+  color: #ffffff;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(231, 53, 62, 0.6),
+    rgba(231, 96, 114, 0.62),
+    rgb(241, 46, 139, 0.5),
+    rgb(212, 20, 131, 0.6),
+    rgb(226, 0, 247, 0.5)
+  );
+}
+
+/* Inputs do Formulário */
+#modal-form input[type="text"],
+#modal-form input[type="mail"],
+#modal-form textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+#modal-form textarea {
+  padding: 2rem 1rem;
+}
+
+#modal-title-form {
+  margin-left: 80%;
+  margin-top: 4rem;
+  font-size: 2rem;
+  color: #e890fc;
+}
+
+/* Classe hide */
+#modal.hide,
+#fade.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#modal.hide {
+  top: 0;
+}
+
+/* Texto que aparece na caixa das respostas da pergunta */
+span {
+  margin-left: 45%;
+  font-size: 0.8rem;
+  position: relative;
+  top: -2rem;
+  left: 1.875rem;
+}
+
+/* Estilos Adicionais */
+.active {
+  font-weight: bold;
+}
+
+/* Classe para títulos com espaçamento */
+.titulo {
+  margin: 8px;
+  position: relative;
+  top: 0px;
+  left: 1px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #e890fc;
+  font-weight: bolder;
+  border-bottom: 2px solid #e890fc;
+}
+
+/* Adicionando estilo para as descrições das perguntas 7 e 8 */
+.descricao-special {
+  margin: 1rem 0;
+}
+
+.descricao-special li {
+  list-style: none;
+}
+
+.descricao-special:hover {
+  text-transform: none;
+}

@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>JavaScript Modal</h1>
+        <h1>Ong Vilma Kano</h1>
         <button onClick={toggleModal}>Abrir</button>
 
         {/* Modal */}
@@ -99,7 +99,7 @@ export default function Home() {
                                   <li key={subKey}>
                                     <span className="titulo">
                                       {formatKey(subKey)}:
-                                    </span>{" "}
+                                    </span>
                                     {subValue}
                                   </li>
                                 )

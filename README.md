@@ -74,4 +74,8 @@ Após a codificação do front-end, nossa equipe discutiu e escolhemos integrar 
 
 Após fazer o código em HTML, CSS e JavaScript, nossa equipe optou por migrar para o framework Next.js. Essa decisão foi tomada devido à facilidade de integração com o Firebase ao utilizar React, além de proporcionar uma experiência de desenvolvimento mais ágil e simplificada em comparação ao JavaScript puro que foi utilizado apenas para fins institucionais.
 
-![Codigo em Next](./src/assets/images/readme/quarto-layout-codificado.png)
+![Modal em Next](./src/assets/images/readme/quarto-layout-codificado.png)
+
+Por se tratar de um desafio para grande parte da equipe, que possui pouca ou nenhuma experiência em programação, o projeto apresenta pequenos bugs estéticos, mas está plenamente funcional. Mesmo após a entrega, planejamos mantê-lo em desenvolvimento para deixá-lo completamente pronto para produção.
+
+![Codigo em Next](./src/assets/images/readme/terceiro-codigo-modal.png)

@@ -32,8 +32,8 @@ export default function Home() {
     // Passo 3: Restaurar o "e" entre siglas com o marcador temporário e manter ele minúsculo
     formattedKey = formattedKey.replace(/\{\{e\}\}/g, " e ");
 
-    // Passo 4: Garantir que a primeira letra seja maiúscula
-    formattedKey = formattedKey.replace(/^./, (str) => str.toUpperCase());
+    // Passo 4: Capitalizar apenas a primeira letra da string
+    formattedKey = formattedKey.charAt(0).toUpperCase() + formattedKey.slice(1);
 
     // Passo 5: Remover espaços extras no início e no final
     return formattedKey.trim();

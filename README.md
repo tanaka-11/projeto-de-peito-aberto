@@ -53,18 +53,18 @@ Por se tratar de um desafio, devido ao fato de termos uma equipe pequena e apena
 
 ![Primeira Parte Estudos](./src/assets/images/readme/estudos.png)
 
-Nosso primeiro layout codificado
+**Nosso primeiro layout codificado**
 
 ![Primeiro Layout](./src/assets/images/readme/primeiro-layout-codificado.png)
 
 ## Segundo Layout Codificado
 
-Seguindo com o modelo escolhido pela cliente, nossos desenvolvedores projetaram um prototipo codificado do front-end
+Seguindo com o modelo escolhido pela cliente, nossos desenvolvedores projetaram um **prototipo codificado do front-end**
 ![Segundo Layout](./src/assets/images/readme/segundo-layout-codificado.png)
 
 ## Terceiro Layout Codificado
 
-Após a codificação do front-end, nossa equipe discutiu e escolhemos integrar o Firebase como back-end. O Firebase é uma plataforma Backend-as-a-Service (BaaS) baseada na infraestrutura do Google, que escala automaticamente. Como BaaS, ele oferece uma estrutura de back-end pronta e gerenciada, permitindo que os desenvolvedores se concentrem no front-end, enquanto o back-end (banco de dados, autenticação, etc.) é fornecido e administrado pela plataforma. Isso evita a necessidade de configurar e manter servidores, tornando o desenvolvimento mais rápido e eficiente.
+Após a codificação do front-end, nossa equipe discutiu e escolhemos **integrar o Firebase como back-end**. O Firebase é uma plataforma Backend-as-a-Service (BaaS) baseada na infraestrutura do Google, que escala automaticamente. Como BaaS, ele oferece uma estrutura de back-end pronta e gerenciada, permitindo que os desenvolvedores se concentrem no front-end, enquanto o back-end (banco de dados, autenticação, etc.) é fornecido e administrado pela plataforma. Isso evita a necessidade de configurar e manter servidores, tornando o desenvolvimento mais rápido e eficiente.
 
 ![Estrutura do Banco de Dados](./src/assets/images/readme/estrutura-firebase.png)
 
@@ -72,10 +72,10 @@ Após a codificação do front-end, nossa equipe discutiu e escolhemos integrar 
 
 ## Quarto Layout Codificado
 
-Após fazer o código em HTML, CSS e JavaScript, nossa equipe optou por migrar para o framework Next.js. Essa decisão foi tomada devido à facilidade de integração com o Firebase ao utilizar React, além de proporcionar uma experiência de desenvolvimento mais ágil e simplificada em comparação ao JavaScript puro que foi utilizado apenas para fins institucionais.
+Após fazer o código em HTML, CSS e JavaScript, **nossa equipe optou por migrar para o framework Next.js**. Essa decisão foi tomada devido à **facilidade de integração com o Firebase ao utilizar React**, além de proporcionar uma experiência de **desenvolvimento mais ágil e simplificada em comparação ao JavaScript puro** que foi utilizado apenas para fins institucionais.
 
 ![Modal em Next](./src/assets/images/readme/quarto-layout-codificado.png)
 
-Por se tratar de um desafio para grande parte da equipe, que possui pouca ou nenhuma experiência em programação, o projeto apresenta pequenos bugs estéticos, mas está plenamente funcional. Mesmo após a entrega, planejamos mantê-lo em desenvolvimento para deixá-lo completamente pronto para produção.
+Por se tratar de **um desafio para grande parte da equipe**, que possui **pouca ou nenhuma experiência em programação**, o projeto apresenta pequenos **bugs estéticos**, mas está plenamente funcional. Mesmo após a entrega, **planejamos mantê-lo em desenvolvimento para deixá-lo completamente pronto para produção.**
 
 ![Codigo em Next](./src/assets/images/readme/terceiro-codigo-modal.png)
